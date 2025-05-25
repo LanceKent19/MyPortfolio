@@ -44,106 +44,24 @@
 
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-      </ul>
-    </nav>
-
+    <?php
+    include_once("includes/navbar.php");
+    ?>
   </header>
 
   <main class="main">
-
     <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
+    <?php
+    include_once("sections/hero.php");
+    ?>
+    <!-- /Hero Section -->
 
-      <img src="assets/img/bgphoto.png" alt="">
-
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Lance Kent Geoffrey Magollado</h2>
-            <p>I'm a <span class="typed"
-                data-typed-items="Programmer, Developer, Freelancer, Designer">Programmer</span><span
-                class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div class="social-links">
-              <a href="https://x.com/Ikent_Lance" target="_blank"><i class="bi bi-twitter-x"></i></a>
-              <a href="https:www.facebook.com/lancekent19/" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/ikent_lance/" target="_blank"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/lancemagollado" target="_blank"><i class="bi bi-linkedin"></i></a>
-              <a href="https://www.youtube.com/@ransuru_19" target="_blank"><i class="bi bi-youtube"></i></a>
-              <a href="https://github.com/LanceKent19" target="_blank"><i class="bi bi-github"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>I am passionate about creating innovative and efficient software solutions that solve real-world problems. I
-          enjoy working through the entire development lifecycle, from brainstorming ideas and designing intuitive
-          interfaces to coding, testing, and launching functional systems.
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/Graduation Pic.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 content">
-            <h2>Software Engineer &amp; Web Developer</h2>
-            <p class="fst-italic py-3">
-              I am an aspiring software developer with a strong passion for building scalable applications and enhancing
-              user experiences through efficient coding and problem-solving.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 July 2003</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                    <span>lancekent19.github.io/MyPortfolio/</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+63 926 322 6163</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Quezon City, Metro Manila</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                    <span>lancemagollado46@gmail.com</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
-              </div>
-            </div>
-            <p class="py-3">
-              I am dedicated to continuous learning and innovation, always seeking new challenges that push my skills
-              further.
-              My goal is to develop impactful software solutions that enhance efficiency and user experience.
-              Whether working independently or collaborating with a team, I am committed to delivering high-quality
-              results.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
+     <?php
+     include_once("sections/about.php");
+     ?>
+    <!-- /About Section -->
 
     <!-- Stats Section -->
     <!-- <section id="stats" class="stats section">
@@ -191,93 +109,10 @@
     </section> -->
 
     <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p> I have experience working with Java, SQL, JavaScript, HTML, and CSS, along with modern frameworks and
-          technologies.
-          I continuously enhance my skills to develop efficient and scalable software solutions.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Java</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>SQL</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>VB.NET</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>PYTHON</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-            <div class="progress">
-              <span class="skill"><span>FIGMA</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
+     <?php
+     include_once("sections/skills.php");
+     ?>
+    <!-- /Skills Section -->
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
@@ -375,9 +210,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-          in iste officiis commodi quidem hic quas.</p>
+        <p>Here are some of the projects I've worked on! From creative designs to hands-on development, each one taught me something new. Feel free to explore and see what I’ve been up to.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -386,8 +219,8 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
+            <li data-filter=".filter-app">Applications</li>
+            <li data-filter=".filter-product">Designs</li>
             <li data-filter=".filter-branding">Web</li>
           </ul><!-- End Portfolio Filters -->
 
@@ -874,23 +707,11 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
-      <!-- <h3 class="sitename">Lance Kent Geoffrey B. Magollado</h3> -->
-      <p><i>"The quality of life is determined by the quality of your thoughts."</i><em>– Marcus Aurelius</em></p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://x.com/Ikent_Lance" target="_blank"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/lancekent19/" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/ikent_lance/" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/lancemagollado" target="_blank"><i class="bi bi-linkedin"></i></a>
-        <a href="https://www.youtube.com/@ransuru_19" target="_blank"><i class="bi bi-youtube"></i></a>
-        <a href="https://github.com/LanceKent19" target="_blank"><i class="bi bi-github"></i></a>
 
-      </div>
-      <p class="text-center mt-3">&copy; 2025 Lance Kent Geoffrey B. Magollado. All Rights Reserved.</p>
-    </div>
-  </footer>
-
+  <?php
+  include_once("includes/footer.php");
+  ?>
+  
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>

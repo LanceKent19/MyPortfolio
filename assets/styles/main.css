@@ -313,7 +313,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--accent-color);
+  background: var(--default-color);
   color: var(--contrast-color);
   line-height: 1;
   margin: 0 4px;
@@ -325,7 +325,7 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb, var(--default-color), transparent 20%);
   text-decoration: none;
 }
 
@@ -695,7 +695,7 @@ section,
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  background-color: var(--heading-color);
 }
 
 /*--------------------------------------------------------------
@@ -784,7 +784,7 @@ section,
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: var(--default-color);
 }
 
 .portfolio .portfolio-filters li:first-child {
@@ -1076,7 +1076,7 @@ section,
 }
 
 .contact .info-item i {
-  color: var(--accent-color);
+  color: var(--nav-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   font-size: 20px;
   width: 44px;
@@ -1103,7 +1103,7 @@ section,
 }
 
 .contact .info-item:hover i {
-  background: var(--accent-color);
+  background: var(--nav-color);
   color: var(--contrast-color);
 }
 
@@ -1137,7 +1137,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: var(--default-color);
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -1145,7 +1145,7 @@ section,
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  background: color-mix(in srgb, var(--default-color), transparent 25%);
 }
 
 /*--------------------------------------------------------------
