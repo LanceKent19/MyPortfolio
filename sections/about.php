@@ -1,10 +1,11 @@
 <section id="about" class="about section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
+        
         <h2>About</h2>
-        <p>I am passionate about creating innovative and efficient software solutions that solve real-world problems. I
+        <!-- <p>I am passionate about creating innovative and efficient software solutions that solve real-world problems. I
           enjoy working through the entire development lifecycle, from brainstorming ideas and designing intuitive
-          interfaces to coding, testing, and launching functional systems.
+          interfaces to coding, testing, and launching functional systems.</p> -->
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">

@@ -58,7 +58,7 @@
       <div class="container">
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li class="current">Portfolio Details</li>
           </ol>
         </nav>

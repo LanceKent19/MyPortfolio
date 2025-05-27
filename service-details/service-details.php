@@ -20,14 +20,14 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/styles/main.css" rel="stylesheet">
+  <link href="../assets/styles/main.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: MyResume
@@ -44,17 +44,11 @@
 
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="index.html #hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="iindex.html #about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="index.html #resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="index.html #portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="index.html #services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-        <li><a href="index.html #contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-      </ul>
-    </nav>
-
+    <!-- Navigation Bar -->
+     <?php
+     include_once("../includes/navbar-dynamic.php");
+     ?>
+    <!-- /Navigation Bar -->
   </header>
 
   <main class="main">
@@ -64,7 +58,7 @@
       <div class="container">
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li class="current">Service Details</li>
           </ol>
         </nav>
@@ -112,7 +106,7 @@
           </div>
 
           <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <img src="../assets/img/services.jpg" alt="" class="img-fluid services-img">
             <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
             <p>
               Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque
@@ -146,44 +140,37 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
-      <!-- <h3 class="sitename">Lance Kent Geoffrey B. Magollado</h3> -->
-      <p><i>"The quality of life is determined by the quality of your thoughts."</i><em>- Marcus Aurelius</em></p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://x.com/Ikent_Lance" target="_blank"><i class="bi bi-twitter-x"></i></a>
-        <a href="https:www.facebook.com/lancekent19/" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/ikent_lance/" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/lancemagollado" target="_blank"><i class="bi bi-linkedin"></i></a>
-        <a href="https://www.youtube.com/@ransuru_19" target="_blank"><i class="bi bi-youtube"></i></a>
-        <a href="https://github.com/LanceKent19" target="_blank"><i class="bi bi-github"></i></a>
+    <!-- Footer -->
+     <?php
+     include_once("../includes/footer.php");
+     ?>
+    <!-- /Footer -->
 
-      </div>
-      <p class="text-center mt-3">&copy; 2025 Lance Kent Geoffrey B. Magollado. All Rights Reserved.</p>
-    </div>
-  </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <!-- Scroll Top -->
+    <?php
+    include_once("../includes/scroll-top.php");
+    ?>
+    <!-- Scroll Top -->
+
 
   <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
