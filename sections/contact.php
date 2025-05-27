@@ -1,3 +1,4 @@
+ 
  <section id="contact" class="contact section">
 
       <!-- Section Title -->
@@ -15,28 +16,30 @@
 
           <div class="col-lg-4">
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <a href="https://www.google.com/maps/place/Quezon+City,+Metro+Manila/@14.6837491,120.7668107,11z/data=!3m1!4b1!4m6!3m5!1s0x3397ba0942ef7375:0x4a9a32d9fe083d40!8m2!3d14.6760413!4d121.0437003!16zL20vMDFwdDV3?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="bi bi-geo-alt flex-shrink-0"></i></a>
               <div>
                 <h3>Address</h3>
-                <p>205 NPC Mendez Street, Baesa, Quezon City</p>
+                <p>Quezon City, Metro Manila</p>
               </div>
             </div><!-- End Info Item -->
 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
+            <a href="viber://chat?number=%2B639263226163" target="_blank"><i class="fab fa-viber flex-shrink-0"></i></a>
               <div>
-                <h3>Call Me</h3>
+                <h3>Contact Me</h3>
                 <p>+63 926 322 6163</p>
+                 <small><a href="https://www.viber.com/en/download/" target="_blank">Download it here </a>if it isn't installed yet.</small>
               </div>
             </div><!-- End Info Item -->
-
+<!-- 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lancemagollado46@gmail.com&su=User's%20Concern&body=Hi%21%20My%20Name%20is%20%5BYour%20Name%5D%2C%20and%20I%20want%20to%20%5BYour%20Concern%5D...." target="_blank">
+<i class="bi bi-envelope flex-shrink-0"></i></a>
               <div>
                 <h3>Email Me</h3>
                 <p>lancemagollado46@gmail.com</p>
               </div>
-            </div><!-- End Info Item -->
+            </div> -->
           </div>
 
           <div class="col-lg-8">
