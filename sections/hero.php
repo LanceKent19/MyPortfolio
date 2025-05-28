@@ -8,7 +8,7 @@
           <div class="col-lg-9">
             <h2>Lance Kent Geoffrey Magollado</h2>
             <p>I'm a <span class="typed"
-                data-typed-items="Developer, Freelancer, Designer, Programmer"></span><span
+                data-typed-items="Developer., Freelancer., Designer., Programmer."></span><span
                 class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
               <a href="https://x.com/Ikent_Lance" target="_blank"><i class="bi bi-twitter-x"></i></a>
