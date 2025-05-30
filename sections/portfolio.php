@@ -32,11 +32,11 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/E-Stradyante-Thumbnail.png" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/E-Stradyante-in-Thumbnail.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>E-Strandyante</h4>
-              <p>A web-based platform designed for Grade 10 <br>students to take assessment that help identify the most suitable academic strand for them.</p>
-                <a href="assets/img/masonry-portfolio/E-Stradyante-Thumbnail.png" title="E-Stradyante Design Thumbnail"
+              <p>A web-based platform designed for Grade 10 students to take assessment that help identify the most suitable academic strand for them.</p>
+                <a href="assets/img/masonry-portfolio/E-Stradyante-in-Thumbnail.png" title="<h3>E-Strandyante Design Thumbnail</h3>Academic Strand Assessment Platform for G10 Students"
                   data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                     class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details/e-stradyante-design.php" title="More Details" class="details-link"><i

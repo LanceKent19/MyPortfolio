@@ -62,10 +62,10 @@
             <li class="current">Portfolio Details</li>
           </ol>
         </nav>
-        <h1>Portfolio Details</h1>
+        <h1>E-Strandyante</h1>
+        <p>Academic Strand Assessment Platform for G10 Students</p>
       </div>
     </div><!-- End Page Title -->
-
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
 
@@ -94,19 +94,19 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="../assets/img/portfolio/app-1.jpg" alt="">
+              <img src="../assets/img/portfolio/E-Stradyante/E-Stradyante-in-Thumbnail.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="../assets/img/portfolio/product-1.jpg" alt="">
+              <img src="../assets/img/portfolio/E-Stradyante/Login-Page.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="../assets/img/portfolio/branding-1.jpg" alt="">
+              <img src="../assets/img/portfolio/E-Stradyante/Login-Step1-Student Page.png" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="../assets/img/portfolio/books-1.jpg" alt="">
+              <img src="../assets/img/portfolio/E-Stradyante/E-Stradyante-Figma.png" alt="">
             </div>
 
           </div>
@@ -119,45 +119,29 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>This is an example of portfolio details</h2>
+              <h2>Project Overview</h2>
+              <h3></h3>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
-                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
-                accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
+                E-Strandyante is a comprehensive web-based platform specifically designed for 
+                Grade 10 students to take detailed assessments that help identify the most 
+                suitable academic strand for their senior high school journey. The platform 
+                combines advanced psychometric testing with an intuitive user interface to 
+                provide personalized recommendations based on students' interests, aptitudes, 
+                and career aspirations.
               </p>
-              <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et.
-                Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt
-                molestiae laboriosam.
-              </p>
-
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
-                    malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <div>
-                  <img src="../assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam
-                animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt
-                assumenda tempore. Delectus voluptas necessitatibus est.
-              </p>
-
+              <h2>Design Features & Solutions</h2>
               <p>
                 Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero.
                 Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui
                 nesciunt.
               </p>
 
+              <h2>Design Challenger & Solutions</h2>
+              <p>
+                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam
+                animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt
+                assumenda tempore. Delectus voluptas necessitatibus est.
+              </p>
             </div>
           </div>
 
@@ -165,11 +149,12 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong>I don't know</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <!-- <li><strong>Figma URL</strong> <a href="#">www.example.com</a></li> -->
-                <li><a href="https://www.figma.com/design/6LyqCjO3CUfR8EqjZY9zUn/Profiling-System-UI?node-id=0-1&p=f&t=Avv8HlusQm7G6JYs-0" target= "_blank" class="btn-visit align-self-start">Visit Design in Figma</a></li>
+                <li><strong>Category</strong> Website UI/UX Design</li>
+                <li><strong>Client</strong>Educational Institution</li>
+                <li><strong>Project date</strong> 01 September, 2024</li>
+                <li><strong>Design Status</strong>Complete</li>
+                <li><strong>Duration</strong>2 Weeks</li>
+                <li><a href="https://www.figma.com/design/6LyqCjO3CUfR8EqjZY9zUn/Profiling-System-UI?node-id=0-1&p=f&t=Avv8HlusQm7G6JYs-0" target= "_blank" class="btn-visit align-self-start">View Figma Design</a></li>
               </ul>
             </div>
           </div>
