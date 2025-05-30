@@ -32,14 +32,14 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/E-Stradyante-Thumbnail.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1"
+                <h4>E-Strandyante</h4>
+              <p>A web-based platform designed for Grade 10 <br>students to take assessment that help identify the most suitable academic strand for them.</p>
+                <a href="assets/img/masonry-portfolio/E-Stradyante-Thumbnail.png" title="E-Stradyante Design Thumbnail"
                   data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                     class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details/portfolio-details.php" title="More Details" class="details-link"><i
+                <a href="portfolio-details/e-stradyante-design.php" title="More Details" class="details-link"><i
                     class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -47,8 +47,8 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
+              <h4>E-Strandyante</h4>
+              <p>A web-based platform designed for Grade 10 <br>students to take assessment that help identify the most suitable academic strand for them.</p>
                 <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
                   data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                     class="bi bi-zoom-in"></i></a>
