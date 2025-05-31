@@ -7,7 +7,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-9">
             <h2>Lance Kent Geoffrey Magollado</h2>
-            <p>I'm a <span class="typed"
+            <p style="font-family: Roboto">I'm a <span class="typed"
                 data-typed-items="Developer., Freelancer., Designer., Programmer."></span><span
                 class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">

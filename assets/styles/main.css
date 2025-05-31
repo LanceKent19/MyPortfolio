@@ -1145,6 +1145,111 @@ section,
   border-radius: 50px;
 }
 
+/* Portfolio Details's Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.75 rem;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+  animation: progressLoad 2s ease-out;
+}
+.progress-fill::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes progressLoad {
+  from { width: 0; }
+}
+@keyframes shimmer{
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(100%);}
+}
+
+
+/* Portfolio Details's Features CSS */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.feature-card {
+  background:#ffffff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  border:1px solid #e2e8f0;
+  transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  border-color: #4facfe;
+}
+
+.feature-card::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover::before{
+  transform: scaleX(1);
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.feature-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.feature-desc {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
@@ -1248,15 +1353,41 @@ section,
 }
 
 .portfolio-details .portfolio-info .btn-visit {
-  padding: 8px 40px;
-  background: var(--accent-color);
-  color: var(--contrast-color);
-  border-radius: 50px;
-  transition: 0.3s;
+  width: 100%;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: rgb(255, 254, 254);
+  border: none;
+  padding: .4rem 2rem;
+  border-radius: 16px;
+  font-size: .9rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-details .portfolio-info .btn-visit::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+
+.portfolio-details .portfolio-info .btn-visit:hover::before{
+  left: 100%;
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1458,4 +1589,31 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* Technology CSS */
+.tech-stack{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tech-tag{
+  background: white;
+  color:#73beff;
+  padding: .4rem 2rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  border: 1px solid #73beff;
+  cursor: default;
+}
+
+.tech-tag:hover{
+  transform: scale(-2px);
+  color: white;
+  box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
 }

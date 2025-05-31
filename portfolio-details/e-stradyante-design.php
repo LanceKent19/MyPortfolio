@@ -130,17 +130,36 @@
                 and career aspirations.
               </p>
               <h2>Design Features & Solutions</h2>
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero.
-                Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui
-                nesciunt.
-              </p>
-
-              <h2>Design Challenger & Solutions</h2>
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam
-                animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt
-                assumenda tempore. Delectus voluptas necessitatibus est.
+            <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🎯</div>
+                            <h3 class="feature-title">Multi-Step Assessment Flow</h3>
+                            <p class="feature-desc">Designed an intuitive step-by-step questionnaire with progress indicators to reduce cognitive load and assessment anxiety.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎨</div>
+                            <h3 class="feature-title">Youth-Centric UI Design</h3>
+                            <p class="feature-desc">Developed a modern, colorful interface that appeals to Gen Z students while maintaining professional credibility.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">📚</div>
+                            <h3 class="feature-title">Strand Information Hub</h3>
+                            <p class="feature-desc">Created comprehensive strand profile pages with career paths, subject previews, and success stories to inform decisions.</p>
+                        </div>
+                    </div>
+              <h2>Design Challenges & Solutions</h2>
+              <p><b>Challenge: </b>How will I design a website that will appeals to Gen Z students?</p>
+              <p><b>Solution</b>
+               I focus on creating a user interface that resonates with Gen Z’s visual and digital 
+               preferences. </p>
+               <p>
+               My design uses clean layouts, intuitive navigation, and vibrant yet 
+               purposeful colors that reflect both energy and clarity. I incorporate modern UI 
+               patterns, subtle animations, and responsive components to make the experience smooth 
+               across devices. Inspired by Gen Z's love for tech-savvy, minimal, and functional design, 
+               I also ensure the interface feels familiar—like an app—while maintaining a professional 
+               look aligned with educational systems. The goal is to build trust, engagement, and ease 
+               of use from the first click.
               </p>
             </div>
           </div>
@@ -152,10 +171,25 @@
                 <li><strong>Category</strong> Website UI/UX Design</li>
                 <li><strong>Client</strong>Educational Institution</li>
                 <li><strong>Project date</strong> 01 September, 2024</li>
-                <li><strong>Design Status</strong>Complete</li>
+                <li><strong>Design Status</strong>Completed                
+                <div class="progress-bar">
+                        <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+              </li>
+
                 <li><strong>Duration</strong>2 Weeks</li>
                 <li><a href="https://www.figma.com/design/6LyqCjO3CUfR8EqjZY9zUn/Profiling-System-UI?node-id=0-1&p=f&t=Avv8HlusQm7G6JYs-0" target= "_blank" class="btn-visit align-self-start">View Figma Design</a></li>
               </ul>
+            </div>
+            <div class="portfolio-info">
+              <h3>Project Tools</h3>
+              <div class="tech-stack">
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">Wireframing</span>
+                <span class="tech-tag">Canva</span>
+                <span class="tech-tag">Prototyping</span>
+                <span class="tech-tag">Usability Testing</span>
+              </div>
             </div>
           </div>
 
