@@ -48,7 +48,7 @@
               <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
               <h4>E-Strandyante</h4>
-              <p>A web-based platform designed for Grade 10 <br>students to take assessment that help identify the most suitable academic strand for them.</p>
+              <p>A web-based platform designed for Grade 10 students to take assessment that help identify the most suitable academic strand for them.</p>
                 <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
                   data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                     class="bi bi-zoom-in"></i></a>

@@ -4,13 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - LanceHub</title>
+  <title>Portfolio Details - E-Strandyante</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../assets/img/Logo-modified.png" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -119,7 +118,7 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>Project Overview</h2>
+              <h2 class="project-header">Project Overview</h2>
               <h3></h3>
               <p>
                 E-Strandyante is a comprehensive web-based platform specifically designed for 
@@ -129,7 +128,7 @@
                 provide personalized recommendations based on students' interests, aptitudes, 
                 and career aspirations.
               </p>
-              <h2>Design Features & Solutions</h2>
+              <h2 class="project-header">Design Features & Solutions</h2>
             <div class="features-grid">
                         <div class="feature-card">
                             <div class="feature-icon">🎯</div>
@@ -147,7 +146,7 @@
                             <p class="feature-desc">Created comprehensive strand profile pages with career paths, subject previews, and success stories to inform decisions.</p>
                         </div>
                     </div>
-              <h2>Design Challenges & Solutions</h2>
+              <h2 class = "project-header">Design Challenges & Solutions</h2>
               <p><b>Challenge: </b>How will I design a website that will appeals to Gen Z students?</p>
               <p><b>Solution</b>
                I focus on creating a user interface that resonates with Gen Z’s visual and digital 
@@ -190,6 +189,58 @@
                 <span class="tech-tag">Prototyping</span>
                 <span class="tech-tag">Usability Testing</span>
               </div>
+            </div>
+             <div class="portfolio-info related-projects">
+              <h3>Related Projects</h3>
+              <div class="projects-grid">
+
+                <div class="project-card">
+                  <div class="project-thumbnail thumbnail-education">
+                    <div class="sample-mockup">
+                      <div class="device-mockup"></div>
+                      <div class="mockup-title">Example</div>
+                      <div class="mockup-subtitle">Example Dashboard</div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <div class="project-title">Example hehehe</div>
+                    <div class="project-description">
+                      blahblashfklaflksfasjfkaslklfsjasjfajkslaksflksajfkjaslfksafkljas
+                    </div>
+                    <div class="project-meta">
+                      <span class="project-category">Education</span>
+                      <span class="project-date">01 September, 2024</span>
+                    </div>
+                  </div>
+                </div>
+              <div class="project-card">
+                  <div class="project-thumbnail thumbnail-education">
+                    <div class="sample-mockup">
+                      <div class="device-mockup"></div>
+                      <div class="mockup-title">Example</div>
+                      <div class="mockup-subtitle">Example Dashboard</div>
+                    </div>
+                  </div>
+                  <div class="project-content">
+                    <div class="project-title">Example hehehe</div>
+                    <div class="project-description">
+                      blahblashfklaflksfasjfkaslklfsjasjfajkslaksflksajfkjaslfksafkljassaddddddddddddddddddddddddd
+                    </div>
+                    <div class="project-meta">
+                      <span class="project-category">Education</span>
+                      <span class="project-date">01 September, 2024</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+             </div>
+
+            <div class="view-all">
+              <a href="#" class="view-all-link">
+                View All Projects
+                <span class="arrow">→</span>
+              </a>
             </div>
           </div>
 
