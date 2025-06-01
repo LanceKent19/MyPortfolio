@@ -220,7 +220,7 @@ h6 {
 
 .navmenu a,
 .navmenu a:focus {
-  color: var(--nav-color);
+  color: var(--accent-color);
   font-family: var(--nav-font);
   display: flex;
   align-items: center;
@@ -228,21 +228,40 @@ h6 {
   margin-bottom: 8px;
   font-size: 15px;
   border-radius: 50px;
-  background: color-mix(in srgb, var(--default-color), transparent 92%);
+  background: transparent;
   height: 56px;
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
+  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+}
+.navmenu a::before,
+.navmenu a:focus::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+
+.navmenu a:hover:before, .navmenu:focus:hover::before{
+  left: 100%;
 }
 
 .navmenu a i,
 .navmenu a:focus i {
   font-size: 20px;
+  z-index: 2;
 }
 
 .navmenu a span,
 .navmenu a:focus span {
   padding: 0 5px 0 7px;
+  z-index: 2;
 }
 
 @media (min-width: 992px) {
@@ -263,10 +282,16 @@ h6 {
 .navmenu .active:focus,
 .navmenu li:hover>a {
   color: var(--contrast-color);
-  background: #343a40;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  animation: breathe 4s ease-in-out infinite;
+
+}
+.navmenu a:hover,.navmenu li:hover>a {
+  transform: translateX(10px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 
-.navmenu a:hover,
+.navmenu a:hover::before,
 .navmenu li:hover>a {
   max-width: 100%;
   color: var(--contrast-color);
@@ -282,11 +307,13 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background: transparent;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
   position: relative;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
 .footer h3 {
@@ -313,8 +340,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--default-color);
-  color: var(--contrast-color);
+  background: transparent;
+  color: var(--default-color);
   line-height: 1;
   margin: 0 4px;
   border-radius: 50%;
@@ -325,8 +352,12 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  background: color-mix(in srgb, var(--default-color), transparent 20%);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   text-decoration: none;
+  color: white;
+  box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
+  transform: scale(-2px);
+  animation: breathe 4s ease-in-out infinite;
 }
 
 .footer .copyright {
@@ -384,11 +415,32 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: #343a40;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   width: 44px;
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
+  animation: breathe 4s ease-in-out infinite;
+  overflow: hidden;
+}
+
+.scroll-top::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+
+.scroll-top:hover::before{
+  left: 100%;
+}
+.scroll-top:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 
 .scroll-top i {
@@ -398,6 +450,7 @@ h6 {
 }
 
 .scroll-top:hover {
+  transform: translateY(-2);
   background-color: color-mix(in srgb, #6c757d, transparent 20%);
   color: var(--contrast-color);
 }
@@ -421,17 +474,19 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-  --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: white;
+  background:linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
   padding: 20px 0;
   position: relative;
+  animation: breathe 4s ease-in-out infinite;
 }
 
 .page-title h1 {
   font-size: 28px;
   font-weight: 700;
   margin: 0;
+  color: white;
 }
 
 .page-title .breadcrumbs ol {
@@ -454,7 +509,13 @@ h6 {
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
-
+.breadcrumbs ol li a{
+  color:white;
+  text-decoration: underline;
+}
+.breadcrumbs ol li a:hover{
+  color:var(--accent-color);
+}
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
@@ -1383,6 +1444,7 @@ section,
   margin-bottom: 1rem;
   position: relative;
   overflow: hidden;
+   animation: breathe 4s ease-in-out infinite;
 }
 .portfolio-details .portfolio-info .btn-visit::before{
   content: '';
@@ -1583,6 +1645,7 @@ section,
   padding: 0.5rem 0rem;
   border-radius: 26px;
   transition: all 0.3s ease;
+  animation: breathe 4s ease-in-out infinite;
 }
 .view-all-link::before{
   content: '';
@@ -1603,7 +1666,7 @@ section,
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   color: white;
   transform: translateX(2px);
-   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 /*--------------------------------------------------------------
 # Service Details Section
@@ -1737,9 +1800,9 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
+/* .starter-section { */
   /* Add your styles here */
-}
+/* } */
 
 /* Technology CSS */
 .tech-stack{
@@ -1761,8 +1824,9 @@ section,
 }
 
 .tech-tag:hover{
+  box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
   transform: scale(-2px);
   color: white;
-  box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  animation: breathe 4s ease-in-out infinite;
 }

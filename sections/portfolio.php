@@ -2,7 +2,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
+        <h2>Projects</h2>
         <p>Here are some of the projects I've worked on! From creative designs to hands-on development, each one taught me something new. Feel free to explore and see what I’ve been up to.</p>
       </div><!-- End Section Title -->
 
