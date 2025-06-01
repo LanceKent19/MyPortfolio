@@ -11,12 +11,12 @@
   <!-- Favicons -->
   <link href="../assets/img/Logo-modified.png" rel="icon">
 
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,14 +27,6 @@
 
   <!-- Main CSS File -->
   <link href="../assets/styles/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="portfolio-details-page">
@@ -145,6 +137,22 @@
                             <h3 class="feature-title">Strand Information Hub</h3>
                             <p class="feature-desc">Created comprehensive strand profile pages with career paths, subject previews, and success stories to inform decisions.</p>
                         </div>
+                      <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3 class="feature-title">Progress Tracking</h3>
+                    <p class="feature-desc">Integrated visual indicators that allow students to track their progress throughout the assessment flow.</p>
+                  </div>
+
+                  <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">Personalized Strand Results</h3>
+                    <p class="feature-desc">Displayed personalized strand recommendations based on psychometric input, with easy-to-understand visual feedback.</p>
+                  </div>
+                  <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Mobile-Responsive Design</h3>
+                    <p class="feature-desc">Crafted the UI to be fully responsive for mobile and tablet use, ensuring accessibility for all students.</p>
+                  </div>
                     </div>
               <h2 class = "project-header">Design Challenges & Solutions</h2>
               <p><b>Challenge: </b>How will I design a website that will appeals to Gen Z students?</p>
@@ -278,10 +286,8 @@
   <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-
   <!-- Main JS File -->
   <script src="../assets/js/main.js"></script>
 
 </body>
-
 </html>

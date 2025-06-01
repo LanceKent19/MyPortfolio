@@ -41,7 +41,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
+  --background-color: rgb(228, 228, 228);
   --surface-color: #ffffff;
 }
 
@@ -182,7 +182,7 @@ h6 {
 
 .header .header-toggle {
   color: var(--contrast-color);
-  background-color: #343a40;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -200,7 +200,7 @@ h6 {
 
 .header .header-toggle:hover {
   color: var(--contrast-color);
-  background-color: color-mix(in srgb, #6c757d 90%, white 15%);
+  background-color: color-mix(in srgb, #ffffff 90%, white 15%);
 }
 
 /*--------------------------------------------------------------
@@ -840,12 +840,29 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   font-family: var(--heading-font);
+  animation: breathe 4s ease-in-out infinite;
+  position: relative;
+  overflow: hidden;
 }
-
+.portfolio .portfolio-filters li::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+.portfolio .portfolio-filters li:hover::before{
+  left: 100%;
+}
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--contrast-color);
-  background-color: var(--default-color);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 
 .portfolio .portfolio-filters li:first-child {
@@ -1137,7 +1154,7 @@ section,
 }
 
 .contact .info-item i {
-  color: var(--nav-color);
+  color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   font-size: 20px;
   width: 44px;
@@ -1149,6 +1166,7 @@ section,
   transition: all 0.3s ease-in-out;
   margin-right: 15px;
   cursor:pointer;
+  animation: breathe 4s ease-in-out infinite;
 }
 
 .contact .info-item h3 {
@@ -1165,8 +1183,10 @@ section,
 }
 
 .contact .info-item:hover i {
-  background: var(--nav-color);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);  
   color: var(--contrast-color);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 
 .contact .php-email-form {
@@ -1199,12 +1219,33 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);  border: 0;
   padding: 10px 30px;
   transition: 0.4s;
   border-radius: 50px;
+  position: relative;
+  animation: breathe 4s ease-in-out infinite;
+  overflow: hidden;
 }
+.contact .php-email-form button[type=submit]::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+.contact .php-email-form button[type=submit]:hover::before{
+  left: 100%;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  transform: scaleY(2px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+}
+
 
 /* Portfolio Details's Progress Bar */
 .progress-bar {
@@ -1279,6 +1320,7 @@ section,
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   transform: scale(0);
   transition: transform 0.3s ease;
+  animation: breathe 4s ease-in-out infinite;
 }
 
 .feature-card:hover::before{
@@ -1309,10 +1351,6 @@ section,
   color: #64748b;
   font-size: 0.95rem;
   line-height: 1.6;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
 /*--------------------------------------------------------------
@@ -1444,7 +1482,7 @@ section,
   margin-bottom: 1rem;
   position: relative;
   overflow: hidden;
-   animation: breathe 4s ease-in-out infinite;
+  animation: breathe 4s ease-in-out infinite;
 }
 .portfolio-details .portfolio-info .btn-visit::before{
   content: '';
@@ -1829,4 +1867,5 @@ section,
   color: white;
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   animation: breathe 4s ease-in-out infinite;
+  border: 1px solid #4facfe;
 }
