@@ -181,8 +181,8 @@ h6 {
 }
 
 .header .header-toggle {
-  color: var(--contrast-color);
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: var(--accent-color);
+  background: white;
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -195,12 +195,16 @@ h6 {
   top: 15px;
   right: 15px;
   z-index: 9999;
-  transition: background-color 0.3s;
+  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  animation: breathe 4s ease-in-out infinite;
 }
 
 .header .header-toggle:hover {
-  color: var(--contrast-color);
-  background-color: color-mix(in srgb, #ffffff 90%, white 15%);
+  transform: scale(-2px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: 1px solid white;
 }
 
 /*--------------------------------------------------------------
@@ -335,7 +339,7 @@ h6 {
   margin: 0 0 30px 0;
 }
 
-.footer .social-links a {
+.footer .social-links a{
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -349,6 +353,21 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.footer .social-links a::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:-100%;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left  0.5s;
+}
+.footer .social-links a:hover::before{
+  left: 100%;
 }
 
 .footer .social-links a:hover {
@@ -1412,6 +1431,11 @@ section,
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
   background:linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  animation: breathe 4s ease-in-out infinite;
+}
+.portfolio-details .swiper-pagination .swiper-pagination-bullet:hover{
+  background:linear-gradient(135deg, #4facfe 0%, #00f2fe 50%);
+  opacity: .4;
 }
 .portfolio-details .portfolio-info h3{
   margin-top: .25rem;
@@ -1605,6 +1629,7 @@ section,
   transform: scale(0);
   transition: transform 0.3s ease;
   z-index: 2;
+  animation: breathe 4s ease-in-out infinite;
 }
 .project-card:hover::before{
   transform: scaleX(1);
