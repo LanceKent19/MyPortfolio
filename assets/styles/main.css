@@ -1338,6 +1338,7 @@ section,
   margin-bottom: 1rem;
   color: white;
   font-size: 1.5rem;
+  animation: breathe 4s ease-in-out infinite;
 }
 
 .feature-title {
@@ -1601,7 +1602,7 @@ section,
   height: 3px;
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   transform: scaleX(0);
-  transform-origin: left;
+  transform: scale(0);
   transition: transform 0.3s ease;
   z-index: 2;
 }
@@ -1622,12 +1623,7 @@ section,
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
 }
-.project-card:hover .project-thumbnail img{
-  transform: scale(1.05);
-}
-
 .project-content{
   padding: 1rem;
 }
@@ -1684,6 +1680,7 @@ section,
   border-radius: 26px;
   transition: all 0.3s ease;
   animation: breathe 4s ease-in-out infinite;
+  overflow: hidden;
 }
 .view-all-link::before{
   content: '';

@@ -36,7 +36,7 @@
               <div class="portfolio-info">
                 <h4>E-Strandyante</h4>
               <p>A web-based platform designed for Grade 10 students to take assessment that help identify the most suitable academic strand for them.</p>
-                <a href="assets/img/masonry-portfolio/E-Stradyante-in-Thumbnail.png" title="<h3>E-Strandyante Design Thumbnail</h3>Academic Strand Assessment Platform for G10 Students"
+                <a href="assets/img/masonry-portfolio/E-Stradyante-in-Thumbnail.png" title="E-Strandyante Design Thumbnail"
                   data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                     class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details/e-stradyante-design.php" title="More Details" class="details-link"><i
@@ -108,11 +108,11 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/Food-Delivery-Mobile-App-Thumbnail.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3"
+                <h4>Food Delivery App</h4>
+                <p>A mobile design in figma for food delivery mobile application.</p>
+                <a href="assets/img/masonry-portfolio/Food-Delivery-Mobile-App-Thumbnail.png" title="Food Delivery Mobile Applcation Design Thumbnail"
                   data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                     class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details/portfolio-details.php" title="More Details" class="details-link"><i

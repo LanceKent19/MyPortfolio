@@ -175,7 +175,7 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong> Website UI/UX Design</li>
+                <li><strong>Category</strong>UI/UX Design</li>
                 <li><strong>Client</strong>Educational Institution</li>
                 <li><strong>Project date</strong> 01 September, 2024</li>
                 <li><strong>Design Status</strong>Completed                
@@ -204,39 +204,31 @@
 
                 <div class="project-card">
                   <div class="project-thumbnail thumbnail-education">
-                    <div class="sample-mockup">
-                      <div class="device-mockup"></div>
-                      <div class="mockup-title">Example</div>
-                      <div class="mockup-subtitle">Example Dashboard</div>
-                    </div>
+                    <img src="../assets/img/masonry-portfolio/Food-Delivery-Mobile-App-Thumbnail.png">
                   </div>
                   <div class="project-content">
-                    <div class="project-title">Example hehehe</div>
+                    <div class="project-title">Food Delivery Mobile App Design</div>
                     <div class="project-description">
-                      blahblashfklaflksfasjfkaslklfsjasjfajkslaksflksajfkjaslfksafkljas
+                      A mobile design in figma for food delivery mobile application.
                     </div>
                     <div class="project-meta">
-                      <span class="project-category">Education</span>
-                      <span class="project-date">01 September, 2024</span>
+                      <span class="project-category">UI/UX Design</span>
+                      <span class="project-date">23 April, 2025</span>
                     </div>
                   </div>
                 </div>
               <div class="project-card">
                   <div class="project-thumbnail thumbnail-education">
-                    <div class="sample-mockup">
-                      <div class="device-mockup"></div>
-                      <div class="mockup-title">Example</div>
-                      <div class="mockup-subtitle">Example Dashboard</div>
-                    </div>
+                    <img src="../assets/img/masonry-portfolio/Task-Management-&-To-do-List-App-Thumbnail.png">
                   </div>
                   <div class="project-content">
-                    <div class="project-title">Example hehehe</div>
+                    <div class="project-title">Task Management & To-do List App Design</div>
                     <div class="project-description">
-                      blahblashfklaflksfasjfkaslklfsjasjfajkslaksflksajfkjaslfksafkljassaddddddddddddddddddddddddd
+                     A mobile app planner design for managing, planning and scheduling working and free time.
                     </div>
                     <div class="project-meta">
-                      <span class="project-category">Education</span>
-                      <span class="project-date">01 September, 2024</span>
+                      <span class="project-category">UI/UX Design</span>
+                      <span class="project-date">06 June, 2025</span>
                     </div>
                   </div>
                 </div>
@@ -245,7 +237,7 @@
              </div>
 
             <div class="view-all">
-              <a href="#" class="view-all-link">
+              <a href="../index.php#portfolio" class="view-all-link">
                 View All Projects
                 <span class="arrow">→</span>
               </a>
