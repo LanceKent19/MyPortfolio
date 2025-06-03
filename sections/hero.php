@@ -4,12 +4,6 @@
       <img src="assets/img/bgphoto.png" alt="">
 
       <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Lance Kent Geoffrey Magollado</h2>
-            <p style="font-family: Roboto">I'm a <span class="typed"
-                data-typed-items="Developer., Freelancer., Designer., Programmer."></span><span
-                class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
               <a href="https://www.figma.com/files/team/1419152086350727549/recents-and-sharing?fuid=1419152081943686518" target="_blank"><i class="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/ikent_lance/" target="_blank"><i class="bi bi-instagram"></i></a>
@@ -18,6 +12,13 @@
               <a href="https://x.com/Ikent_Lance" target="_blank"><i class="fab fa-figma"></i></a>
               <a href="https://github.com/LanceKent19" target="_blank"><i class="bi bi-github"></i></a>
             </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Lance Kent Geoffrey Magollado</h2>
+            <p style="font-family: Roboto">I'm a <span class="typed"
+                data-typed-items="Developer., Freelancer., Designer., Programmer."></span><span
+                class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+
           </div>
         </div>
       </div>

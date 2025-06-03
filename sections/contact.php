@@ -16,7 +16,7 @@
 
           <div class="col-lg-4">
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="https://www.google.com/maps/place/Quezon+City,+Metro+Manila/@14.6837491,120.7668107,11z/data=!3m1!4b1!4m6!3m5!1s0x3397ba0942ef7375:0x4a9a32d9fe083d40!8m2!3d14.6760413!4d121.0437003!16zL20vMDFwdDV3?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="bi bi-geo-alt flex-shrink-0"></i></a>
+              <a href="https://www.google.com/maps/place/Quezon+City,+Metro+Manila/@14.6837491,120.7668107,11z/data=!3m1!4b1!4m6!3m5!1s0x3397ba0942ef7375:0x4a9a32d9fe083d40!8m2!3d14.6760413!4d121.0437003!16zL20vMDFwdDV3?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="icon"><i class="bi bi-geo-alt flex-shrink-0"></i></a>
               <div>
                 <h3>Address</h3>
                 <p>Quezon City, Metro Manila</p>
@@ -24,7 +24,7 @@
             </div><!-- End Info Item -->
 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <a href="viber://chat?number=%2B639263226163" target="_blank"><i class="fab fa-viber flex-shrink-0"></i></a>
+            <a href="viber://chat?number=%2B639263226163" target="_blank" class="icon"><i class="fab fa-viber flex-shrink-0"></i></a>
               <div>
                 <h3>Contact Me</h3>
                 <p>+63 926 322 6163</p>

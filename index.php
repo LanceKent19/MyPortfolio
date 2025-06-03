@@ -63,18 +63,18 @@
     <!-- /Stats Section -->
 
 
-    <!-- Skills Section -->
-     <?php
-     include_once("sections/skills.php");
-     ?>
-    <!-- /Skills Section -->
-
-
     <!-- Resume Section -->
      <?php
      include_once("sections/resume.php");
      ?>
     <!-- /Resume Section -->
+
+
+    <!-- Skills Section -->
+     <?php
+     include_once("sections/skills.php");
+     ?>
+    <!-- /Skills Section -->
 
 
     <!-- Portfolio Section -->

@@ -196,13 +196,13 @@ h6 {
   right: 15px;
   z-index: 9999;
   transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 
 .header .header-toggle:hover {
   transform: scale(-2px);
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
   border: 1px solid white;
 }
@@ -286,8 +286,8 @@ h6 {
 .navmenu .active:focus,
 .navmenu li:hover>a {
   color: var(--contrast-color);
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  animation: breathe 4s ease-in-out infinite;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  
 
 }
 .navmenu a:hover,.navmenu li:hover>a {
@@ -371,12 +371,12 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   text-decoration: none;
   color: white;
   box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
   transform: scale(-2px);
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 
 .footer .copyright {
@@ -434,12 +434,12 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   width: 44px;
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  animation: breathe 4s ease-in-out infinite;
+  
   overflow: hidden;
 }
 
@@ -494,11 +494,11 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   color: white;
-  background:linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
   padding: 20px 0;
   position: relative;
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 
 .page-title h1 {
@@ -581,12 +581,12 @@ section,
   display: block;
   width: 160px;
   height: 3px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 
 .section-title p {
@@ -646,12 +646,16 @@ section,
 }
 
 .hero .social-links {
-  margin-top: 25px;
+  text-align: right;
+  position: relative;
+  top: 1rem;
 }
 
 .hero .social-links a {
   font-size: 20px;
-  display: inline-block;
+  text-align: right;
+  justify-content: right;
+  display: inline-flex;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   line-height: 1;
   margin-right: 20px;
@@ -859,7 +863,7 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   font-family: var(--heading-font);
-  animation: breathe 4s ease-in-out infinite;
+  
   position: relative;
   overflow: hidden;
 }
@@ -879,7 +883,7 @@ section,
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--contrast-color);
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   transform: translateY(-5px);
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
@@ -1172,7 +1176,7 @@ section,
   margin-top: 40px;
 }
 
-.contact .info-item i {
+.contact .info-item .icon {
   color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   font-size: 20px;
@@ -1184,10 +1188,31 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   margin-right: 15px;
-  cursor:pointer;
-  animation: breathe 4s ease-in-out infinite;
+  cursor: pointer;
+  
+  position: relative;
+  overflow: hidden;
+}
+.contact .info-item .icon::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+.contact .info-item .icon:hover::before{
+  left: 100%;
 }
 
+.contact .info-item .icon:hover{
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);  
+  color: var(--contrast-color);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+}
 .contact .info-item h3 {
   padding: 0;
   font-size: 18px;
@@ -1199,13 +1224,6 @@ section,
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
-}
-
-.contact .info-item:hover i {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);  
-  color: var(--contrast-color);
-  transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 
 .contact .php-email-form {
@@ -1238,12 +1256,12 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);  border: 0;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);  border: 0;
   padding: 10px 30px;
   transition: 0.4s;
   border-radius: 50px;
   position: relative;
-  animation: breathe 4s ease-in-out infinite;
+  
   overflow: hidden;
 }
 .contact .php-email-form button[type=submit]::before{
@@ -1279,7 +1297,7 @@ section,
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   border-radius: 4px;
   width: 100%;
   position: relative;
@@ -1336,10 +1354,10 @@ section,
   right: 0;
   left: 0;
   height: 3px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   transform: scale(0);
   transition: transform 0.3s ease;
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 
 .feature-card:hover::before{
@@ -1349,7 +1367,7 @@ section,
 .feature-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -1357,7 +1375,7 @@ section,
   margin-bottom: 1rem;
   color: white;
   font-size: 1.5rem;
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 
 .feature-title {
@@ -1430,11 +1448,10 @@ section,
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background:linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  animation: breathe 4s ease-in-out infinite;
+   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
 }
 .portfolio-details .swiper-pagination .swiper-pagination-bullet:hover{
-  background:linear-gradient(135deg, #4facfe 0%, #00f2fe 50%);
+   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%);
   opacity: .4;
 }
 .portfolio-details .portfolio-info h3{
@@ -1455,11 +1472,12 @@ section,
   display: block;
   width: 100%;
   height: 3px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   left: 0;
   bottom: 0;
-  animation: breathe 4s ease-in-out infinite;
+  
 }
+
 
 @keyframes breathe {
   0%, 100% { 
@@ -1492,7 +1510,7 @@ section,
 
 .portfolio-details .portfolio-info .btn-visit {
   width: 100%;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: rgb(255, 254, 254);
   border: none;
   padding: .4rem 2rem;
@@ -1507,7 +1525,7 @@ section,
   margin-bottom: 1rem;
   position: relative;
   overflow: hidden;
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 .portfolio-details .portfolio-info .btn-visit::before{
   content: '';
@@ -1624,12 +1642,12 @@ section,
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   transform: scaleX(0);
   transform: scale(0);
   transition: transform 0.3s ease;
   z-index: 2;
-  animation: breathe 4s ease-in-out infinite;
+  
 }
 .project-card:hover::before{
   transform: scaleX(1);
@@ -1637,7 +1655,7 @@ section,
 .project-thumbnail{
   width: 100%;
   height: 120px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -1691,7 +1709,7 @@ section,
 }
 .view-all-link{
   width: 100%;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
   display: inline-flex;
   align-items: center;
@@ -1704,7 +1722,7 @@ section,
   padding: 0.5rem 0rem;
   border-radius: 26px;
   transition: all 0.3s ease;
-  animation: breathe 4s ease-in-out infinite;
+  
   overflow: hidden;
 }
 .view-all-link::before{
@@ -1723,7 +1741,7 @@ section,
 }
 
 .view-all-link:hover{
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
   transform: translateX(2px);
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
@@ -1887,7 +1905,7 @@ section,
   box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
   transform: scale(-2px);
   color: white;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  animation: breathe 4s ease-in-out infinite;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  
   border: 1px solid #4facfe;
 }
