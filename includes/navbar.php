@@ -1,4 +1,4 @@
-    <nav id="navmenu" class="navmenu">
+    <nav id="navmenu" class="navmenu" data-aos="zoom-out">
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>

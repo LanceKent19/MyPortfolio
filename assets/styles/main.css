@@ -598,6 +598,7 @@ section,
 --------------------------------------------------------------*/
        /* Main Content */
 .main-content {
+  padding-left: 20px;
   flex: 1;
   display: block;
   min-height: 100vh;
@@ -666,6 +667,7 @@ section,
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
+  
 }
 
 .btn-primary::before{
@@ -729,7 +731,7 @@ section,
 
 .image-container {
   position: relative;
-  width: 350px;
+  width: 330px;
   height: 350px;
   top: -80px;
 }
