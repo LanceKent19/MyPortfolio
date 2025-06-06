@@ -706,7 +706,7 @@ section,
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
   color: white;
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
   
@@ -734,8 +734,7 @@ section,
 .btn-secondary {
   background: white;
   color: #1e3c72;
-  border: 2px solid #1e3c72;
-  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn-secondary::before{
@@ -754,7 +753,7 @@ section,
 }
 
 .btn-secondary:hover {
-  background: #1e3c72;
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
   color: white;
   transform: translateY(-3px);
   box-shadow: 0 12px 35px rgba(30, 60, 114, 0.3);
@@ -1126,7 +1125,6 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   font-family: var(--heading-font);
-  
   position: relative;
   overflow: hidden;
 }
@@ -1146,7 +1144,7 @@ section,
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--contrast-color);
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
   transform: translateY(-5px);
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
@@ -1519,7 +1517,8 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);  border: 0;
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
+  border: 0;
   padding: 10px 30px;
   transition: 0.4s;
   border-radius: 50px;
@@ -1742,8 +1741,6 @@ section,
   
 }
 
-
-
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
@@ -1765,7 +1762,7 @@ section,
 
 .portfolio-details .portfolio-info .btn-visit {
   width: 100%;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
   color: rgb(255, 254, 254);
   border: none;
   padding: .4rem 2rem;
@@ -1964,7 +1961,7 @@ section,
 }
 .view-all-link{
   width: 100%;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
   color: white;
   display: inline-flex;
   align-items: center;
@@ -1996,7 +1993,6 @@ section,
 }
 
 .view-all-link:hover{
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
   transform: translateX(2px);
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
