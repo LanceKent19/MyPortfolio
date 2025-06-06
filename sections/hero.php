@@ -13,7 +13,8 @@
 
         <div class="content-wrapper">
             <!-- Text Content -->
-            
+             <div class="first-name">Lance Kent</div>
+             <div class="second-name">Geoffrey Magollado</div>
             <div class="text-content"  data-aos="zoom-out">
                 <h1 class="name">Lance Kent Geoffrey Magollado</h1>
                 <p class="description" style="font-family: Roboto">I'm a <span class="typed" style="color: #1e3c72; font-weight: 600;"
