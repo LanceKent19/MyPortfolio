@@ -29,12 +29,14 @@
   <link href="assets/styles/main.css" rel="stylesheet">
 
 </head>
+ <!-- <div class="background-name first-name">Lance Kent</div>
+ <div class="background-name second-name">Geoffrey Magollado</div> -->
 
 <body class="index-page ">
 
   <header id="header" class="header d-flex flex-column justify-content-center">
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <i class="header-toggle d-xl-none bi bi-list" ></i>
 
     <?php
     include_once("includes/navbar.php");

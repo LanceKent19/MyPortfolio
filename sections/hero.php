@@ -1,6 +1,7 @@
     <!-- Main Content -->
     <div id="hero" class="main-content section" >
         <!-- Social Icons -->
+         
         <div class="social-icons" data-aos="zoom-out">
               <a href="https://www.figma.com/files/team/1419152086350727549/recents-and-sharing?fuid=1419152081943686518" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/ikent_lance/" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
@@ -12,6 +13,7 @@
 
         <div class="content-wrapper">
             <!-- Text Content -->
+            
             <div class="text-content"  data-aos="zoom-out">
                 <h1 class="name">Lance Kent Geoffrey Magollado</h1>
                 <p class="description" style="font-family: Roboto">I'm a <span class="typed" style="color: #1e3c72; font-weight: 600;"
