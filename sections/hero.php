@@ -15,8 +15,9 @@
         <div class="content-wrapper">
             <!-- Text Content -->
              <div class="background-name" data-aos="zoom-out">
-             <div class="first-name">Lance Kent Geoffrey</div>
-              <div class="second-name">Magollado</div>
+             <div class="first-name">Lance Kent</div>
+              <div class="second-name">Geoffrey</div>
+              <div class="last-name">Magollado</div>
              </div>
             <div class="text-content"  data-aos="zoom-out">
                 <h1 class="name">Lance Kent Geoffrey <br>Magollado</h1>

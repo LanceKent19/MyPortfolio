@@ -621,7 +621,7 @@ main .section{
 }
 
 .first-name,
-.second-name {
+.second-name, .last-name {
   position: absolute;
   transform: translateX(-50%);
   font-size: clamp(1rem, 10vw, 6rem);
@@ -642,13 +642,16 @@ main .section{
 
 .first-name {
   top: -300px;
-  left: 400px;
+  left: 200px;
 }
 .second-name {
-  top: -215px;
-  left: 185px;
+  top: -300px;
+  left: 650px;
 }
-
+.last-name{
+  top: -200px;
+  left: 188px;
+}
 .content-wrapper {
   top: 140px;
   left: 100px;
@@ -904,9 +907,14 @@ main .section{
   .first-name{
     top:-40px;
     font-size: 3rem;
-    left: -5px;
+    left: -100px;
   }
   .second-name{
+    top:-40px;
+    font-size: 3rem;
+    left: 125px;
+  }
+  .last-name{
     top:10px;
     font-size: 3rem;
     left: -5px;
@@ -948,7 +956,23 @@ main .section{
     height: 40px;
   }
 }
-
+@media (max-width: 400px) {
+  .first-name{
+    top:-20px;
+    font-size: 2.5rem;
+    left: -18px;
+  }
+  .second-name{
+    top:20px;
+    font-size: 2.5rem;
+    left: -20px;
+  }
+  .last-name{
+    top: 55px;
+    font-size: 2.5rem;
+    left: -23px;
+  }
+}
 
 /*--------------------------------------------------------------
 # About Section
