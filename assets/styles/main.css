@@ -302,7 +302,6 @@ h6 {
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 .navmenu .active{
- 
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 .navmenu a:hover::before,
@@ -555,15 +554,21 @@ section,
   text-align: center;
   padding-bottom: 60px;
   position: relative;
+  
 }
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   padding-bottom: 10px;
   position: relative;
+  color: #000000;
+  background:linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+   
 }
-
 .section-title h2:before {
   content: "";
   position: absolute;
@@ -581,14 +586,13 @@ section,
   content: "";
   position: absolute;
   display: block;
-  width: 160px;
+  width: 60px;
   height: 3px;
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-  
 }
 
 .section-title p {
@@ -600,7 +604,7 @@ section,
 --------------------------------------------------------------*/
        /* Main Content */
 .main-content {
- padding-left: 20px;
+  padding-left: 20px;
   flex: 1;
   display: block;
   min-height: 100vh;
@@ -987,6 +991,44 @@ section,
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.about-image-container{
+  position: relative;
+  width: 330px;
+  height: 390px;
+}
+.about .img-fluid{
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.about-image-container::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border-radius: 20px;
+  z-index: 1;
+  opacity: 0.1;
+}
+
+.about-image-container::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.1;
 }
 
 /*--------------------------------------------------------------

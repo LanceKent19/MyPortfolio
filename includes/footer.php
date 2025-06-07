@@ -7,7 +7,7 @@
         <a href="https://www.instagram.com/ikent_lance/" target="_blank"><i class="bi bi-instagram"></i></a>
         <a href="https://www.linkedin.com/in/lancemagollado" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://www.youtube.com/@ransuru_19" target="_blank"><i class="bi bi-youtube"></i></a>
-        <a href="https://www.figma.com/files/team/1419152086350727549/recents-and-sharing?fuid=1419152081943686518" target="_blank"><i class="fab fa-figma"></i></a>
+        <a href="https://www.figma.com/files/team/1419152086350727549/project/280328582/Lance-s-Figma-Repository?fuid=1419152081943686518" target="_blank"><i class="fab fa-figma"></i></a>
         <a href="https://github.com/LanceKent19" target="_blank"><i class="bi bi-github"></i></a>
       </div>
       

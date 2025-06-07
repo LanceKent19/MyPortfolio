@@ -55,7 +55,6 @@
      ?>
     <!-- /About Section -->
 
-
     <!-- Stats Section -->
     <?php
     // include_once("sections/stats.php");
@@ -68,13 +67,6 @@
      include_once("sections/resume.php");
      ?>
     <!-- /Resume Section -->
-
-
-    <!-- Skills Section -->
-     <?php
-     include_once("sections/skills.php");
-     ?>
-    <!-- /Skills Section -->
 
 
     <!-- Portfolio Section -->
