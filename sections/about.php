@@ -12,7 +12,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="image-section">
-              <div class="col-lg-4 about-image-container">
+              <div class="about-image-container">
                 <img src="assets/img/Graduation Pic.jpg" class="img-fluid" alt="">
               </div>
           </div>
