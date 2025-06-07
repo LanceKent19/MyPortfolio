@@ -1,5 +1,5 @@
     <!-- Main Content -->
-    <div id="hero" class="main-content section" >
+    <div id="hero" class="main-content section">
         <!-- Social Icons -->
          
         <div class="social-icons" data-aos="zoom-out">
@@ -11,11 +11,13 @@
               <a href="https://github.com/LanceKent19" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
         </div>
 
-        <div class="content-wrapper">
+        <div class="content-wrapper" data-aos="zoom-out">
             <!-- Text Content -->
-             <div class="first-name">Lance Kent</div>
-             <div class="second-name">Geoffrey Magollado</div>
-            <div class="text-content"  data-aos="zoom-out">
+             <div class="name-wrapper">
+                <div class="first-name" >Lance Kent</div>
+                <div class="second-name">Geoffrey Magollado</div>
+             </div>
+            <div class="text-content" >
                 <h1 class="name">Lance Kent Geoffrey Magollado</h1>
                 <p class="description" style="font-family: Roboto">I'm a <span class="typed" style="color: #1e3c72; font-weight: 600;"
                 data-typed-items="Developer., Freelancer., Designer., Programmer."></span><span
@@ -28,7 +30,7 @@
             </div>
 
             <!-- Image Section -->
-            <div class="image-section"  data-aos="zoom-out">
+            <div class="image-section">
                 <div class="image-container">
                     <!-- Replace this src with your actual image -->
                    <img src="assets/img/bgphoto.png" alt="" class="profile-image">                
