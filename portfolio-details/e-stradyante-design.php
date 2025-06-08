@@ -191,11 +191,17 @@
             <div class="portfolio-info">
               <h3>Project Tools</h3>
               <div class="tech-stack">
-                <span class="tech-tag">Figma</span>
-                <span class="tech-tag">Wireframing</span>
-                <span class="tech-tag">Canva</span>
-                <span class="tech-tag">Prototyping</span>
-                <span class="tech-tag">Usability Testing</span>
+                <div class="tool-item">
+                  <div class="tool-logo">
+                    <img src="../assets/img/tools-technologies/figma.png" alt="Figma" title="Figma">
+                  </div>
+                </div>
+                <div class="tool-logo">
+                  <img src="../assets/img/tools-technologies/wireframe.png" alt="Wireframing" title="Wireframing">
+                </div>
+                <div class="tool-logo">
+                  <img src="../assets/img/tools-technologies/canva.png" alt="Canva" title="Canva">
+                </div>
               </div>
             </div>
              <div class="portfolio-info related-projects">

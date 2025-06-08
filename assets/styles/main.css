@@ -1170,6 +1170,7 @@ main .section{
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
+    color: color-mix(in srgb, var(--accent-color), transparent 30%);
 }
 
 .portfolio .portfolio-item .portfolio-info p {
@@ -1529,116 +1530,6 @@ main .section{
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
 
-
-/* Portfolio Details's Progress Bar */
-.progress-bar {
-  width: 100%;
-  height: 8px;
-  background: #e2e8f0;
-  border-radius: 4px;
-  overflow: hidden;
-  margin-top: 0.75 rem;
-  position: relative;
-}
-
-.progress-fill {
-  height: 100%;
-  background: #27ae60;
-  border-radius: 4px;
-  width: 100%;
-  position: relative;
-  animation: progressLoad 2s ease-out;
-}
-.progress-fill::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
-  animation: shimmer 2s infinite;
-}
-
-@keyframes progressLoad {
-  from { width: 0; }
-}
-
-@keyframes shimmer{
-  0% {transform: translateX(-100%);}
-  100% {transform: translateX(100%);}
-}
-
-
-/* Portfolio Details's Features CSS */
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.feature-card {
-  background:#ffffff;
-  padding: 2.5rem;
-  border-radius: 20px;
-  border:1px solid #e2e8f0;
-  transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
-  position: relative;
-  overflow: hidden;
-   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.feature-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-  border-color: #4facfe;
-}
-
-.feature-card::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 3px;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  transform: scale(0);
-  transition: transform 0.3s ease;
-  
-}
-
-.feature-card:hover::before{
-  transform: scaleX(1);
-}
-
-.feature-icon {
-  width: 48px;
-  height: 48px;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-  color: white;
-  font-size: 1.5rem;
-  
-}
-
-.feature-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #1e293b;
-  margin-bottom: 0.5rem;
-}
-
-.feature-desc {
-  color: #64748b;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -1764,20 +1655,6 @@ main .section{
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
-/* .portfolio-details .portfolio-info .btn-visit::before{
-  content: '';
-  position: absolute;
-  top:0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: left 0.5s;
-}
-
-.portfolio-details .portfolio-info .btn-visit:hover::before{
-  left: 100%;
-} */
 
 .portfolio-details .portfolio-info .btn-visit:hover {
   transform: translateY(-2px);
@@ -1964,26 +1841,160 @@ main .section{
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
   overflow: hidden;
 }
-/* .view-all-link::before{
-  content: '';
-  position: absolute;
-  top:0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: left 0.5s;
-}
-
-.view-all-link:hover::before{
-   left: 100%;
-} */
 
 .view-all-link:hover{
   color: white;
   transform: translateX(2px);
   box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
 }
+/* Technology CSS */
+.tech-stack{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.tool-logo img {
+  width: 75%;
+  height: 85%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background: white;
+    border: 2px solid #f1f5f9;
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.tool-logo {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  transition: transform 0.3s ease;
+}
+
+/* Portfolio Details's Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.75 rem;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #27ae60;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+  animation: progressLoad 2s ease-out;
+}
+.progress-fill::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes progressLoad {
+  from { width: 0; }
+}
+
+@keyframes shimmer{
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(100%);}
+}
+
+
+/* Portfolio Details's Features CSS */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.feature-card {
+  background:#ffffff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  border:1px solid #e2e8f0;
+  transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+  overflow: hidden;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  border-color: #4facfe;
+}
+
+.feature-card::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  transform: scale(0);
+  transition: transform 0.3s ease;
+  
+}
+
+.feature-card:hover::before{
+  transform: scaleX(1);
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  
+}
+
+.feature-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.feature-desc {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
@@ -2120,29 +2131,3 @@ main .section{
   /* Add your styles here */
 /* } */
 
-/* Technology CSS */
-.tech-stack{
-  display:flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-
-.tech-tag{
-  background: white;
-  color:var(--accent-color);
-  padding: .4rem 2rem;
-  border-radius: 20px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
-  cursor: default;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.tech-tag:hover{
-  box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
-  transform: scale(-2px);
-  color: white;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-}
