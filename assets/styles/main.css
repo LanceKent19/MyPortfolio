@@ -1748,9 +1748,8 @@ main .section{
 .project-card:hover{
   transform: translateY(-8px);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-  border-color:#4facfe;
 }
-.project-card::before{
+/* .project-card::before{
   content: '';
   position: absolute;
   top: 0;
@@ -1763,7 +1762,7 @@ main .section{
   transition: transform 0.3s ease;
   z-index: 2;
   
-}
+} */
 .project-card:hover::before{
   transform: scaleX(1);
 }
@@ -1851,38 +1850,34 @@ main .section{
 .tech-stack{
   display:flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .tool-logo img {
   width: 75%;
   height: 85%;
   object-fit: contain;
-  border-radius: 8px;
 }
 .tool-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1.5rem 1rem;
-    background: white;
-    border: 2px solid #f1f5f9;
-    border-radius: 16px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: .7rem .7rem;
+  background: white;
+  border: 2px solid #f1f5f9;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-
-
+.tool-item:hover{
+  transform: translateY(-5px);
+}
 .tool-logo {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.75rem;
   transition: transform 0.3s ease;
 }
 
@@ -1948,20 +1943,6 @@ main .section{
 .feature-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-  border-color: #4facfe;
-}
-
-.feature-card::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 3px;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  transform: scale(0);
-  transition: transform 0.3s ease;
-  
 }
 
 .feature-card:hover::before{

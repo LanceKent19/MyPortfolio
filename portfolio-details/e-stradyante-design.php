@@ -191,16 +191,20 @@
             <div class="portfolio-info">
               <h3>Project Tools</h3>
               <div class="tech-stack">
-                <div class="tool-item">
+                <div class="tool-item" title="Figma">
                   <div class="tool-logo">
-                    <img src="../assets/img/tools-technologies/figma.png" alt="Figma" title="Figma">
+                    <img src="../assets/img/tools-technologies/figma.png" alt="Figma">
                   </div>
                 </div>
-                <div class="tool-logo">
-                  <img src="../assets/img/tools-technologies/wireframe.png" alt="Wireframing" title="Wireframing">
+                <div class="tool-item" title="WireFrame">
+                  <div class="tool-logo">
+                    <img src="../assets/img/tools-technologies/wireframe.png" alt="Wireframe">
+                  </div>  
                 </div>
+                <div class="tool-item" title="Canva">
                 <div class="tool-logo">
-                  <img src="../assets/img/tools-technologies/canva.png" alt="Canva" title="Canva">
+                  <img src="../assets/img/tools-technologies/canva.png" alt="Canva">
+                </div>
                 </div>
               </div>
             </div>
