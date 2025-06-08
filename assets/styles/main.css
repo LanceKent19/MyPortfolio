@@ -247,7 +247,7 @@ h6 {
   transition: all 0.3s ease;
   position: relative;
 }
-.navmenu a::before,
+/* .navmenu a::before,
 .navmenu a:focus::before{
   content: '';
   position: absolute;
@@ -261,7 +261,7 @@ h6 {
 
 .navmenu a:hover:before, .navmenu:focus:hover::before{
   left: 100%;
-}
+} */
 
 .navmenu a i,
 .navmenu a:focus i {
@@ -685,7 +685,7 @@ main .section{
 
 .description {
   font-size: 1.3rem;
-  color: #666;
+  color: var(--default-color);
   position: relative;
 }
 
@@ -716,7 +716,7 @@ main .section{
   z-index: 3;
 }
 
-.btn-primary::before{
+/* .btn-primary::before{
   content: '';
   position: absolute;
   top:0;
@@ -729,7 +729,7 @@ main .section{
 }
 .btn-primary:hover::before{
   left: 100%;
-}
+} */
 
 .btn-primary:hover {
   transform: translateY(-3px);
@@ -743,7 +743,7 @@ main .section{
   transition: all 0.3s ease;
 }
 
-.btn-secondary::before{
+/* .btn-secondary::before{
   content: '';
   position: absolute;
   top:0;
@@ -756,7 +756,7 @@ main .section{
 
 .btn-secondary:hover::before{
   left: 100%;
-}
+} */
 
 .btn-secondary:hover {
   background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
@@ -853,7 +853,7 @@ main .section{
   overflow: hidden;
 }
 
-.social-icon::before {
+/* .social-icon::before {
   content: '';
   position: absolute;
   top:0;
@@ -866,7 +866,7 @@ main .section{
 
 .social-icon:hover::before {
   left: 100%;
-}
+} */
 
 .social-icon i {
   text-align: center;
@@ -879,13 +879,8 @@ main .section{
   transition: all 0.3s ease;
 }
 
-.social-icon:hover i{
-  color: white;  
-}
-
 .social-icon:hover {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  transform: translateY(-3px);
+  transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
 @media (max-width: 768px) {
@@ -979,6 +974,11 @@ main .section{
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
+  color: #2c3e50;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip:text;
 }
 
 .about .content ul {

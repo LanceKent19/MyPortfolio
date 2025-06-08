@@ -30,7 +30,7 @@
 
 </head>
 
-<body class="index-page ">
+<body>
 
   <header id="header" class="header d-flex flex-column justify-content-center">
 
