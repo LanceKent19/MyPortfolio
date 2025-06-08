@@ -189,6 +189,7 @@ h6 {
 }
 
 .header .header-toggle {
+  transition: all 0.3s ease;
   color: var(--accent-color);
   background: white;
   font-size: 22px;
@@ -203,14 +204,15 @@ h6 {
   top: 10px;
   right: 15px;
   z-index: 99999;
-  transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .header .header-toggle:hover {
-  transform: translateY(-5px);
+  transform: scale(1.1);
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -470,7 +472,7 @@ h6 {
   font-size: 28px;
   font-weight: 700;
   margin: 0;
-  color: var(--heading-color);
+  color: var(--accent-color);
 }
 
 .page-title .breadcrumbs ol {
@@ -498,7 +500,7 @@ h6 {
   text-decoration: underline;
 }
 .breadcrumbs ol li a:hover{
-  color:#1e3c72;
+  color:#4974c4;
 }
 /*--------------------------------------------------------------
 # Global Sections
@@ -527,12 +529,7 @@ section,
   font-weight: 800;
   padding-bottom: 10px;
   position: relative;
-  color: #000000;
-  background:linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-   
+  color: var(--accent-color);
 }
 .section-title h2:before {
   content: "";
@@ -1767,7 +1764,7 @@ main .section{
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
-.portfolio-details .portfolio-info .btn-visit::before{
+/* .portfolio-details .portfolio-info .btn-visit::before{
   content: '';
   position: absolute;
   top:0;
@@ -1780,7 +1777,7 @@ main .section{
 
 .portfolio-details .portfolio-info .btn-visit:hover::before{
   left: 100%;
-}
+} */
 
 .portfolio-details .portfolio-info .btn-visit:hover {
   transform: translateY(-2px);
@@ -1967,7 +1964,7 @@ main .section{
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
   overflow: hidden;
 }
-.view-all-link::before{
+/* .view-all-link::before{
   content: '';
   position: absolute;
   top:0;
@@ -1980,7 +1977,7 @@ main .section{
 
 .view-all-link:hover::before{
    left: 100%;
-}
+} */
 
 .view-all-link:hover{
   color: white;
