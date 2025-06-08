@@ -1603,15 +1603,16 @@ main .section{
   padding-bottom: 10px;
   position: relative;
   overflow: hidden;
+  color: var(--accent-color);
 }
-.project-header::after,
-.portfolio-details .portfolio-info h3:after {
+.project-header::before,
+.portfolio-details .portfolio-info h3:before {
   content: "";
   position: absolute;
   display: block;
   width: 100%;
-  height: 3px;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  height: 1px;
+  background: color-mix( in srgb, var(--default-color),  transparent 60%);
   left: 0;
   bottom: 0;
   
@@ -1657,8 +1658,8 @@ main .section{
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(30, 60, 114, 0.4);
 }
 
 .portfolio-details .portfolio-description h2 {

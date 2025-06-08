@@ -249,7 +249,6 @@
             <div class="view-all">
               <a href="../index.php#portfolio" class="view-all-link">
                 View All Projects
-                <span class="arrow">→</span>
               </a>
             </div>
           </div>
