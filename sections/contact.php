@@ -26,7 +26,7 @@
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
             <a href="viber://chat?number=%2B639263226163" target="_blank" class="icon"><i class="fab fa-viber flex-shrink-0"></i></a>
               <div>
-                <h3>Contact Me</h3>
+                <h3>Call Me</h3>
                 <p>+63 926 322 6163</p>
                  <small><a href="https://www.viber.com/en/download/" target="_blank">Download it here </a>if it isn't installed yet.</small>
               </div>

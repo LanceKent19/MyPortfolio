@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #45505b; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0563bb; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #1e3c72; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -73,8 +73,8 @@ body {
   background-position: top left, top left, top left, center, center;
   font-family: var(--default-font);
   transition: all 0.3s ease;
+  background-attachment: fixed;
 }
-
 a {
   color: #4facfe ;
   text-decoration: none;
@@ -203,18 +203,14 @@ h6 {
   top: 10px;
   right: 15px;
   z-index: 99999;
-  transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .header .header-toggle:hover {
-  transform: scale(1.1); /* instead of -2px which is invalid */
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
-
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -232,7 +228,7 @@ h6 {
 
 .navmenu a,
 .navmenu a:focus {
-  color: var(--accent-color);
+  color: #1e3c72;
   font-family: var(--nav-font);
   display: flex;
   align-items: center;
@@ -247,22 +243,6 @@ h6 {
   transition: all 0.3s ease;
   position: relative;
 }
-/* .navmenu a::before,
-.navmenu a:focus::before{
-  content: '';
-  position: absolute;
-  top:0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: left 0.5s;
-}
-
-.navmenu a:hover:before, .navmenu:focus:hover::before{
-  left: 100%;
-} */
-
 .navmenu a i,
 .navmenu a:focus i {
   font-size: 20px;
@@ -292,20 +272,21 @@ h6 {
 .navmenu .active,
 .navmenu .active:focus,
 .navmenu li:hover>a {
-  color: var(--contrast-color);
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #1e3c72;
+  background: white;
 }
 .navmenu a:hover,.navmenu li:hover>a {
   transform: translateX(10px);
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .navmenu .active{
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .navmenu a:hover::before,
 .navmenu li:hover>a {
   max-width: 100%;
-  color: var(--contrast-color);
+  color: #1e3c72;
 }
 
 .navmenu a:hover span,
@@ -351,8 +332,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: transparent;
-  color: var(--default-color);
+  text-align: center;
+  background: white;
+  color: #1e3c72;
   line-height: 1;
   margin: 0 4px;
   border-radius: 50%;
@@ -363,26 +345,12 @@ h6 {
   position: relative;
   overflow: hidden;
 }
-.footer .social-links a::before{
-  content: '';
-  position: absolute;
-  top:0;
-  left:-100%;
-  width: 100%;
-  height: 100%;
-  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: left  0.5s;
-}
-.footer .social-links a:hover::before{
-  left: 100%;
-}
-
 .footer .social-links a:hover {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-decoration: none;
-  color: white;
   box-shadow: 0 8px 25px rgba(103, 122, 206, 0.4);
-  transform: scale(-2px);
+  transform: scale(-4px);
   
 }
 
@@ -454,11 +422,9 @@ h6 {
 }
 .scroll-top:hover {
   transform: translateY(-5px);
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
-  color: white;
+  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
-.scroll-top::before{
+/* .scroll-top::before{
   content: '';
   position: absolute;
   top:0;
@@ -471,7 +437,7 @@ h6 {
 
 .scroll-top:hover::before{
   left: 100%;
-}
+} */
 
 .scroll-top.active {
   visibility: visible;
@@ -840,7 +806,6 @@ main .section{
 .social-icon {
   width: 45px;
   height: 45px;
-  background: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -848,26 +813,11 @@ main .section{
   justify-content: center;
   text-decoration: none;
   transition: all 0.3s ease;
+  background: rgb(255, 255, 255);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
 }
-
-/* .social-icon::before {
-  content: '';
-  position: absolute;
-  top:0;
-  left:-100%;
-  width: 100%;
-  height: 100%;
-  background:linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: left  0.5s;
-}
-
-.social-icon:hover::before {
-  left: 100%;
-} */
-
 .social-icon i {
   text-align: center;
   justify-content: center;
@@ -1179,19 +1129,6 @@ main .section{
   position: relative;
   overflow: hidden;
 }
-.portfolio .portfolio-filters li::before{
-  content: '';
-  position: absolute;
-  top:0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: left 0.5s;
-}
-.portfolio .portfolio-filters li:hover::before{
-  left: 100%;
-}
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--contrast-color);
@@ -1489,8 +1426,8 @@ main .section{
 }
 
 .contact .info-item .icon {
+  background: white;
   color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
   font-size: 20px;
   width: 44px;
   height: 44px;
@@ -1503,8 +1440,9 @@ main .section{
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-.contact .info-item .icon::before{
+/* .contact .info-item .icon::before{
   content: '';
   position: absolute;
   top: 0;
@@ -1516,13 +1454,12 @@ main .section{
 }
 .contact .info-item .icon:hover::before{
   left: 100%;
-}
+} */
 
 .contact .info-item .icon:hover{
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);  
-  color: var(--contrast-color);
+  color: var(--accent-color);
   transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
 .contact .info-item h3 {
   padding: 0;

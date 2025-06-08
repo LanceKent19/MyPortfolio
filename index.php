@@ -35,7 +35,6 @@
   <header id="header" class="header d-flex flex-column justify-content-center">
 
     <i class="header-toggle d-xl-none bi bi-list" data-aos="zoom-out"></i>
-
     <?php
     include_once("includes/navbar.php");
     ?>

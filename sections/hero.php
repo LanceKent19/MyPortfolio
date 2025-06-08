@@ -1,6 +1,5 @@
     <!-- Main Content -->
      <main id="hero" class="hero section">
-
         <!-- Social Icons -->
          
         <div class="social-icons" data-aos="zoom-out">
