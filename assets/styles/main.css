@@ -73,7 +73,7 @@ body {
   background-position: top left, top left, top left, center, center;
   font-family: var(--default-font);
   transition: all 0.3s ease;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 a {
   color: #4facfe ;
@@ -1457,7 +1457,7 @@ main .section{
 .contact .info-item .icon:hover{
   color: var(--accent-color);
   transform: translateY(-5px);
-   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
+  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
 .contact .info-item h3 {
   padding: 0;
@@ -1508,10 +1508,10 @@ main .section{
   transition: 0.4s;
   border-radius: 50px;
   position: relative;
-  
   overflow: hidden;
+  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
-.contact .php-email-form button[type=submit]::before{
+/* .contact .php-email-form button[type=submit]::before{
   content: '';
   position: absolute;
   top:0;
@@ -1523,11 +1523,11 @@ main .section{
 }
 .contact .php-email-form button[type=submit]:hover::before{
   left: 100%;
-}
+} */
 
 .contact .php-email-form button[type=submit]:hover {
-  transform: scaleY(2px);
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 12px 35px rgba(30, 60, 114, 0.4);
+  transform: translateY(-5px);
 }
 
 /*--------------------------------------------------------------
