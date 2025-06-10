@@ -1112,6 +1112,7 @@ main .section{
 }
 
 .portfolio .portfolio-filters li {
+  color: var(--accent-color);
   cursor: pointer;
   display: inline-block;
   padding: 8px 20px 10px 20px;
@@ -1128,10 +1129,10 @@ main .section{
 }
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
-  color: var(--contrast-color);
-  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
+  color: var(--accent-color);
+  background: white;
   transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio .portfolio-filters li:first-child {
@@ -1455,7 +1456,6 @@ main .section{
 } */
 
 .contact .info-item .icon:hover{
-  color: var(--accent-color);
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
@@ -1484,8 +1484,8 @@ main .section{
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact .php-email-form input[type=text]:focus,
