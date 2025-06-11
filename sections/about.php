@@ -17,7 +17,7 @@
               </div>
           </div>
           <div class="col-lg-8 content">
-            <h2>Software Developer Student</h2>
+            <h3>Software Developer Student</h3>
             <p class="fst-italic py-3">
               I am an aspiring software developer with a strong passion for building scalable applications and enhancing
               user experiences through efficient coding and problem-solving.
@@ -25,23 +25,23 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 July 2003</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                  <li><strong style="color: var(--accent-color);">Birthday:</strong> <span>19 July 2003</span></li>
+                  <li><strong style="color: var(--accent-color);">Website:</strong>
                     <span>lancekent19.github.io/MyPortfolio/</span>
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+63 926 322 6163</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Quezon City, Metro Manila</span>
+                  <li><strong style="color: var(--accent-color);">Phone:</strong> <span>+63 926 322 6163</span></li>
+                  <li><strong style="color: var(--accent-color);">City:</strong> <span>Quezon City, Metro Manila</span>
                   </li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                  <li><strong style="color: var(--accent-color);">Age:</strong> <span>21</span></li>
+                  <li><strong style="color: var(--accent-color);">Degree:</strong> <span>Bachelor</span></li>
+                  <li><strong style="color: var(--accent-color);">Email:</strong>
                     <span>lancemagollado46@gmail.com</span>
                   </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><strong style="color: var(--accent-color);">Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
             </div>
