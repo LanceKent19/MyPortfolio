@@ -1492,7 +1492,7 @@ main .section{
   box-shadow: 0 12px 35px rgba(92, 77, 35, 0.4);
   transform: translateY(-5px);
 }
-.contact .floating-label-group{
+/* .contact .floating-label-group{
   position: relative;
   margin-bottom: 20px;
 }
@@ -1513,9 +1513,9 @@ main .section{
 .contact .floating-input:focus + label, 
 .floating-input:not(:placeholder-shown) + label, 
 .floating-input:valid + label{
-  top: 7px;
-  left: 2px;
-  font-size: 10px;
+  top: 0;
+  left: 10px;
+  font-size: 12px;
   color: #1e3c72;
   background: transparent;
 }
@@ -1537,7 +1537,7 @@ main .section{
   resize: vertical;
   min-height: 120px;
   padding-top: 18px;
-}
+} */
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/

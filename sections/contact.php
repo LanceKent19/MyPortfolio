@@ -31,25 +31,13 @@
                  <small><a href="https://www.viber.com/en/download/" target="_blank">Download it here </a>if it isn't installed yet.</small>
               </div>
             </div><!-- End Info Item -->
-<!-- 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lancemagollado46@gmail.com&su=User's%20Concern&body=Hi%21%20My%20Name%20is%20%5BYour%20Name%5D%2C%20and%20I%20want%20to%20%5BYour%20Concern%5D...." target="_blank">
-<i class="bi bi-envelope flex-shrink-0"></i></a>
-              <div>
-                <h3>Email Me</h3>
-                <p>lancemagollado46@gmail.com</p>
-              </div>
-            </div> -->
           </div>
           <div class="col-lg-8">
             <form action="../forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
               data-aos-delay="200">
               <div class="row gy-4">
                 <div class="col-md-6">
-                  <div class="form-group floating-label-group">
-                    <input type="text" name="name" class="form-control floating-input" placeholder=" " required>
-                    <label>Your Name</label>
-                  </div>
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
