@@ -3,7 +3,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p> I have experience working with Java, SQL, JavaScript, HTML, and CSS, along with modern frameworks and
+        <p> I have an experience working with Java, SQL, JavaScript, HTML, and CSS, along with modern frameworks and
           technologies.</p>
       </div><!-- End Section Title -->
 

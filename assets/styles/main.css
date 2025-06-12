@@ -1448,6 +1448,7 @@ main .section{
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
+  color: var(--accent-color);
 }
 
 .contact .info-item p {

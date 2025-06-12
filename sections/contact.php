@@ -5,8 +5,8 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
         <p>
-          Feel free to reach out for any online projects or collaborations. The best way to contact me is via email, and
-          I'll respond as soon as possible.
+  Feel free to reach out for any online projects, assistance, or collaborations. The best way to contact me is via email or my Viber number, and I'll respond as soon as possible.
+
         </p>
       </div><!-- End Section Title -->
 

@@ -3,12 +3,9 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
-        <!-- <p>A dedicated <i>Information Technology student</i> with skills in <i>software development, database
-            management, and IoT applications</i>.
-          Experienced in <i>VB.NET, Java, MySQL, and Arduino</i>, with hands-on projects in <i>system development and
-            smart solutions</i>.
-          Also a <i>freelance academic tutor at StudyPool</i>, assisting students in programming and computer science.
-        </p> -->
+        <p>
+          A dedicated <i>Information Technology student</i> with an actual training experience and participation in various seminars, and build a strong foundation in both practical and theoretical aspects of IT.
+        </p>
       </div><!-- End Section Title -->
 
       <div class="container">
