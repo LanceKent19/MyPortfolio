@@ -1430,19 +1430,6 @@ main .section{
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-/* .contact .info-item .icon::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-  transition: left 0.5s;
-}
-.contact .info-item .icon:hover::before{
-  left: 100%;
-} */
 
 .contact .info-item .icon:hover{
   transform: translateY(-5px);
@@ -1505,7 +1492,52 @@ main .section{
   box-shadow: 0 12px 35px rgba(92, 77, 35, 0.4);
   transform: translateY(-5px);
 }
+.contact .floating-label-group{
+  position: relative;
+  margin-bottom: 20px;
+}
 
+.contact .floating-label-group label{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size:14px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  background: white;
+  padding: 0 5px;
+}
+
+.contact .floating-input:focus + label, 
+.floating-input:not(:placeholder-shown) + label, 
+.floating-input:valid + label{
+  top: 7px;
+  left: 2px;
+  font-size: 10px;
+  color: #1e3c72;
+  background: transparent;
+}
+.contact .floating-input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 14px 15px 6px;
+  font-size: 14px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.contact .floating-input:focus, .floating-input:valid{
+  outline: none;
+  border-color: #1e3c72;
+}
+.contact textarea.floating-input {
+  resize: vertical;
+  min-height: 120px;
+  padding-top: 18px;
+}
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/

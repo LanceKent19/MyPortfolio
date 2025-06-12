@@ -46,7 +46,10 @@
               data-aos-delay="200">
               <div class="row gy-4">
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <div class="form-group floating-label-group">
+                    <input type="text" name="name" class="form-control floating-input" placeholder=" " required>
+                    <label>Your Name</label>
+                  </div>
                 </div>
                 <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
