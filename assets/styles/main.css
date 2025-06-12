@@ -1241,11 +1241,17 @@ main .section{
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
+  color: var(--accent-color);
+}
+.services .service-item span{
+  color: var(--accent-color);
+  font-weight: bold;
 }
 
 .services .service-item p {
   line-height: 24px;
   font-size: 14px;
+  color: #444;
   margin-bottom: 0;
 }
 

@@ -3,7 +3,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>These are the services I provide to my clients, from designing user interfaces to creating functional web and desktop applications.</p>
+        <p>These are the services I provide to my clients, from designing user interfaces to creating functional web, desktop, game and embedded system applications tailored to client needs.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -21,10 +21,9 @@
                 <i class="bi bi-activity"></i>
               </div>
               <a href="service-details/service-details.php" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>Graphic Design</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
-                tempore et consequatur.</p>
+              <p>Creative visual solutions including logo design, branding, digital illustrations and academic materials using <span>Figma</span> and <span>Canva</span>.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -39,10 +38,9 @@
                 <i class="bi bi-broadcast"></i>
               </div>
               <a href="service-details/service-details.php" class="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>Web Development</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
-                nesciunt dolorem.</p>
+              <p>Modern, responsive websites and web applications built using <span>HTML</span>, <span>CSS</span>, <span>SQL</span>, <span>PHP</span>, <span>Javascript</span> and other frameworks like <span>Bootstrap</span>, <span>Django</span> and <span>APIs</span>.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -57,10 +55,9 @@
                 <i class="bi bi-easel"></i>
               </div>
               <a href="service-details/service-details.php" class="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Software Applications</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci
-                eos earum corrupti.</p>
+             <p>Custom desktop applications for productivity and innovation, using technologies like <span>VB.NET</span>, <span>Java</span> and <span>SQL</span>.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -75,10 +72,9 @@
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
               <a href="service-details/service-details.php" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
+                <h3>Embedded Systems</h3>
               </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
-                adipisci neque.</p>
+              <p>Development of embedded systems using microcontrollers like <span>Arduino</span> and <span>ESP32</span>, programmed in <span>C++</span> for IOT and automation solution.</p>
               <a href="service-details/service-details.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -94,10 +90,9 @@
                 <i class="bi bi-calendar4-week icon"></i>
               </div>
               <a href="service-details/service-details.php" class="stretched-link">
-                <h3>Velit Doloremque</h3>
+                <h3>Game Development</h3>
               </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
-                alias eius labore.</p>
+              <p>Developing fun and interactive basic games yet engaging task, built using <span>VB.NET</span>, <span>Java</span> and <span>SQL</span> for managing user data and game progress.</p>
               <a href="service-details/service-details.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -113,10 +108,9 @@
                 <i class="bi bi-chat-square-text"></i>
               </div>
               <a href="service-details/service-details.php" class="stretched-link">
-                <h3>Dolori Architecto</h3>
+                <h3>Technical Consulting</h3>
               </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti
-                recusandae ducimus enim.</p>
+              <p>Providing assistance for both academic and system business needs. Guiding you in technology's choice, documentation, system architecture and team project planning and strategies.</p>
               <a href="service-details/service-details.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
