@@ -25,10 +25,8 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><strong style="color: var(--accent-color);">Birthday:</strong> <span>19 July 2003</span></li>
-                  <li><strong style="color: var(--accent-color);">Website:</strong>
-                    <span>lancekent19.github.io/MyPortfolio/</span>
-                  </li>
+                  <li><strong style="color: var(--accent-color);">Nickname:</strong> <span>Lance</span></li>
+                  <li><strong style="color: var(--accent-color);">Birthday:</strong> <span>19 July 2003</span></li> 
                   <li><strong style="color: var(--accent-color);">Phone:</strong> <span>+63 926 322 6163</span></li>
                   <li><strong style="color: var(--accent-color);">City:</strong> <span>Quezon City, Metro Manila</span>
                   </li>
