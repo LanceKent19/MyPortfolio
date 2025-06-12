@@ -1257,78 +1257,79 @@ main .section{
 
 .services .service-item:hover {
  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+ transform: translateY(-10px);
 }
 
-.services .service-item.item-cyan i {
-  color: #0dcaf0;
+.services .service-item.graphic-design i {
+  color: #3ac1da; 
 }
 
-.services .service-item.item-cyan:hover .icon i {
+.services .service-item.graphic-design:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-cyan:hover .icon path {
-  fill: #0dcaf0;
+.services .service-item.graphic-design:hover .icon path {
+  fill: #3ac1da;
 }
 
-.services .service-item.item-orange i {
-  color: #fd7e14;
+.services .service-item.web-development i {
+  color: #f59e42;
 }
 
-.services .service-item.item-orange:hover .icon i {
+.services .service-item.web-development:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-orange:hover .icon path {
-  fill: #fd7e14;
+.services .service-item.web-development:hover .icon path {
+  fill: #f59e42;
 }
 
-.services .service-item.item-teal i {
-  color: #20c997;
+.services .service-item.software-applications i {
+  color:#3bb18a;
 }
 
-.services .service-item.item-teal:hover .icon i {
+.services .service-item.software-applications:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-teal:hover .icon path {
-  fill: #20c997;
+.services .service-item.software-applications:hover .icon path {
+  fill:	#3bb18a;
 }
 
-.services .service-item.item-red i {
-  color: #df1529;
+.services .service-item.embedded-systems i {
+  color: #d03b4c;
 }
 
-.services .service-item.item-red:hover .icon i {
+.services .service-item.embedded-systems:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-red:hover .icon path {
-  fill: #df1529;
+.services .service-item.embedded-systems:hover .icon path {
+  fill: #d03b4c;
 }
 
-.services .service-item.item-indigo i {
-  color: #6610f2;
+.services .service-item.game-development i {
+  color: #5a33c9;
 }
 
-.services .service-item.item-indigo:hover .icon i {
+.services .service-item.game-development:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-indigo:hover .icon path {
-  fill: #6610f2;
+.services .service-item.game-development:hover .icon path {
+  fill: #5a33c9;
 }
 
-.services .service-item.item-pink i {
-  color: #f3268c;
+.services .service-item.technical-consulting i {
+  color:#e04889;
 }
 
-.services .service-item.item-pink:hover .icon i {
+.services .service-item.technical-consulting:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-pink:hover .icon path {
-  fill: #f3268c;
+.services .service-item.technical-consulting:hover .icon path {
+  fill:#e04889;
 }
 
 /*--------------------------------------------------------------
