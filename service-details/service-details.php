@@ -18,6 +18,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -76,23 +77,24 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
 
             <div class="service-box">
-              <h4>Serices List</h4>
+              <h4>Services List</h4>
               <div class="services-list">
-                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Product Management</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
+                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Web Development</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Software Application</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Embedded System</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Game Development</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Technical Consulting</span></a>
               </div>
             </div><!-- End Services List -->
 
-            <div class="service-box">
+            <!-- <div class="service-box">
               <h4>Download Catalog</h4>
               <div class="download-catalog">
                 <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
                 <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
               </div>
-            </div><!-- End Services List -->
+            </div>End Services List -->
 
             <div class="help-box d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-headset help-icon"></i>
