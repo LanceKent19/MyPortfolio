@@ -15,7 +15,7 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Training</h3>
 
-            <div class="resume-item pb-0">
+            <div class="resume-item">
               <h4>Training for Work Scholarship Program (TWSP)</h4>
               <h5>November 11, 2024 - December 30, 2024</h5>
               <p><em>Certified in Computer Programming (Java) - NC III</em></p>
@@ -63,18 +63,6 @@
                 </li>
               </ul>
             </div>
-            <!-- <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                  advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div>Edn Resume Item -->
           </div>
 
         </div>
