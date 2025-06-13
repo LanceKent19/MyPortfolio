@@ -35,16 +35,15 @@
                 database management, and IoT applications.
                 Gaining hands-on experience in programming and emerging technologies to develop innovative solutions.
               </p>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>ICT with Specialization in Computer Programming</h4>
+                            <h4>ICT with Specialization in Computer Programming</h4>
               <h5>2019 - 2021</h5>
               <p><em>Rosario Institute, Rosario, Cavite</em></p>
               <p>Completed the Track-Information and Communications Technology (ICT) with a specialization in Computer
                 Programming,
                 gaining foundational knowledge in coding, software development, and database management.</p>
+
             </div><!-- Edn Resume Item -->
+
 
           </div>
 
