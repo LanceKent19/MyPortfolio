@@ -68,14 +68,19 @@
 
           <div class="col-lg-6">
 
-            <div class="progress">
-              <span class="skill"><span>Java</span> <i class="val">80%</i></span>
+            <div class="progress" data-skill="java">
+              <span class="skill">
+                <div class="skill-logo">
+                  <img src="../assets/img/tools-technologies/java.png" alt="Java">
+                </div>
+                <span style="color: #f89820;">Java</span>
+                <i class="val">80%</i>
+              </span>
               <div class="skill-description">
                 <p>Gained proficiency through TESDA certification and academic projects. Experienced in object-oriented programming, data structures, and building console applications.</p>
               </div>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
 
