@@ -998,14 +998,13 @@ main .section{
 # Skills Section
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 145px;
+  height: 165px;
   display: block;
   background: none;
-  border-radius: 0;
   margin-bottom: 30px;
   padding: 20px;
   background-color: var(--surface-color);
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
@@ -1027,12 +1026,17 @@ main .section{
   align-items: center;
   font-size: 16px;
 }
+.skills .progress .skill-name{
+  display: flex;
+  gap: 1px;
+}
 .skills .progress .skill-logo{
   height: 25px;
   width: 25px;
   margin-right: 8px;
   position: relative;
   display: inline-block;
+  top: -5px;
 }
 .skills .progress .skill-logo img{
   height: 100%;
@@ -1045,7 +1049,7 @@ main .section{
  font-style: normal;
 }
 .skills .progress .skill-description{
-  font-size: 13px;
+  font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-bottom: 12px;
   line-height: 1.5;
@@ -1067,7 +1071,20 @@ main .section{
   position: relative;
   overflow: hidden;
 }
+.skills .progress[data-skill="java"] .progress-bar{
+  background: linear-gradient(135deg, #f89820 0%, #ff6b35 100%);
+}
 
+.skills .progress .progress[data-skill="java"] .progress-bar::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
+  animation: shimmer 2s infinite;
+}
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
@@ -1217,7 +1234,7 @@ main .section{
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
-    color: color-mix(in srgb, var(--accent-color), transparent 30%);
+  color: color-mix(in srgb, var(--accent-color), transparent 30%);
 }
 
 .portfolio .portfolio-item .portfolio-info p {

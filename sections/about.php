@@ -70,10 +70,12 @@
 
             <div class="progress" data-skill="java">
               <span class="skill">
-                <div class="skill-logo">
-                  <img src="../assets/img/tools-technologies/java.png" alt="Java">
+                <div class="skill-name">
+                  <div class="skill-logo">
+                    <img src="../assets/img/tools-technologies/java.png" alt="Java">
+                  </div>
+                    <span style="color: #f89820;">Java</span>
                 </div>
-                <span style="color: #f89820;">Java</span>
                 <i class="val">80%</i>
               </span>
               <div class="skill-description">
