@@ -96,6 +96,9 @@
                 </div>
                 <i class="val">60%</i>
               </span>
+              <div class="skill-description">
+                <p>Learning database design and management through coursework. Can write basic queries, joins, and understand relational database concepts.</p>
+              </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -112,6 +115,9 @@
                 </div>
                 <i class="val">75%</i>
               </span>
+              <div class="skill-description">
+                <p>Solid foundation in semantic HTML5. Can structure web pages effectively and understand accessibility principles from web development courses.</p>
+              </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -126,6 +132,9 @@
                 </div>
                 <i class="val">70%</i>
               </span>
+              <div class="skill-description">
+                <p>Comfortable with modern CSS3, flexbox, grid layouts, and responsive design. Currently learning advanced animations and frameworks.</p>
+              </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -145,6 +154,9 @@
                 </div>
                 <i class="val">60%</i>
               </span>
+              <div class="skill-description">
+                <p>Exploring server-side development through academic projects. Can create basic dynamic web applications and understand MVC architecture concepts.</p>
+              </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -160,6 +172,9 @@
                 </div>
                 <i class="val">60%</i>
               </span>
+              <div class="skill-description">
+                <p>Learning .NET framework development for Windows applications. Understanding event-driven programming and form-based applications.</p>
+              </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -175,6 +190,9 @@
                 </div>
                 <i class="val">60%</i>
               </span>
+              <div class="skill-description">
+                <p>Self-learning Python for data analysis and automation. Familiar with basic syntax, libraries, and scripting for academic assignments.</p>
+              </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -190,6 +208,9 @@
                 </div>
                 <i class="val">75%</i>
               </span>
+              <div class="skill-description">
+                <p>Proficient in UI/UX design and prototyping. Creating wireframes, mockups, and design systems for web and mobile applications in coursework.</p>
+              </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                 </div>
