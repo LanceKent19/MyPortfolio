@@ -1015,7 +1015,7 @@ main .section{
 }
 
 .skills .progress .skill {
-  color: var(--heading-color);
+  color: var(--default-color);
   padding: 0;
   margin: 0 0 8px 0;
   display: flex;
@@ -1050,7 +1050,7 @@ main .section{
 }
 .skills .progress .skill-description{
   font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: var(--default-color);
   margin-bottom: 12px;
   line-height: 1.5;
 }

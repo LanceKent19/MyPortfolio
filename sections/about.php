@@ -87,7 +87,15 @@
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>SQL</span> <i class="val">60%</i></span>
+              <span class="skill">
+                <div class="skill-name">
+                  <div class="skill-logo">
+                    <img src="../assets/img/tools-technologies/database.png" alt="SQL">
+                  </div>
+                  <span style="color: #1d7bd3;">SQL</span>
+                </div>
+                <i class="val">60%</i>
+              </span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -113,7 +121,15 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">60%</i></span>
+              <span class="skill">
+                <div class="skill-name">
+                  <div class="skill-logo">
+                    <img src="../assets/img/tools-technologies/web.png" alt="PHP">
+                  </div>
+                  <span style="color: #777bb4;">PHP</span>
+                </div>
+                <i class="val">60%</i>
+              </span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                 </div>
