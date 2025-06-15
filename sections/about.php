@@ -108,7 +108,7 @@
                   <div class="skill-logo">
                     <img src="../assets/img/tools-technologies/html.png" alt="HTML">
                   </div>
-                   <span>HTML</span>
+                   <span style="color:  #e34f26;">HTML</span>
                 </div>
                 <i class="val">75%</i>
               </span>
@@ -122,7 +122,7 @@
                 <div class="skill-name">
                   <div class="skill-logo"><img src="../assets/img/tools-technologies/css-3.png" alt="CSS">
                 </div>
-                <span>CSS</span>
+                <span style="color: #1572b6;">CSS</span>
                 </div>
                 <i class="val">70%</i>
               </span>
@@ -156,7 +156,7 @@
                 <div class="skill-name">
                   <div class="skill-logo"><img src="../assets/img/tools-technologies/visual-basic.png" alt="VISUAL BASIC">
                 </div>
-                <span>VB.NET</span>
+                <span style="color: #512bd4 ;">VB.NET</span>
                 </div>
                 <i class="val">60%</i>
               </span>
@@ -171,7 +171,7 @@
                 <div class="skill-name">
                   <div class="skill-logo"><img src="../assets/img/tools-technologies/python.png" alt="Python">
                 </div>
-                <span>Python</span>
+                <span style="color: #3776ab;">Python</span>
                 </div>
                 <i class="val">60%</i>
               </span>
@@ -186,7 +186,7 @@
                   <div class="skill-logo">
                     <img src="../assets/img/tools-technologies/figma.png" alt="Figma">
                   </div>
-                  <span>Figma</span>
+                  <span style="color: #f24e1e;">Figma</span>
                 </div>
                 <i class="val">75%</i>
               </span>
