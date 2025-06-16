@@ -55,7 +55,11 @@
      ?>
     <!-- /About Section -->
 
-
+    <!-- Skills Section -->
+    <?php
+    include_once("sections/skills.php");
+    ?>
+    <!-- /Skills Section -->
     <!-- Stats Section -->
     <?php
     // include_once("sections/stats.php");
