@@ -998,6 +998,7 @@ main .section{
 # Skills Section
 --------------------------------------------------------------*/
 .skills .progress {
+  transform: translateY(-10px);
   height: 165px;
   display: block;
   background: none;
@@ -1005,13 +1006,13 @@ main .section{
   padding: 20px;
   background-color: var(--surface-color);
   border-radius: 5px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
 }
 
 .skills .progress:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
+  transform: translateY(0px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .skills .progress .skill {
@@ -1074,16 +1075,26 @@ main .section{
 .skills .progress[data-skill="java"] .progress-bar{
   background: linear-gradient(135deg, #f89820 0%, #ff6b35 100%);
 }
-
-.skills .progress .progress[data-skill="java"] .progress-bar::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
-  animation: shimmer 2s infinite;
+.skills .progress[data-skill="sql"] .progress-bar{
+  background: linear-gradient(135deg, #336791 0%, #4a90e2 100%);
+}
+.skills .progress[data-skill="html"] .progress-bar{
+  background: linear-gradient(135deg, #e34f26 0%, #f16529 100%);
+}
+.skills .progress[data-skill="css"] .progress-bar{
+  background: linear-gradient(135deg, #1572b6 0%, #33a9dc 100%);
+}
+.skills .progress[data-skill="php"] .progress-bar{
+  background: linear-gradient(135deg, #777bb4 0%, #8892bf 100%);
+}
+.skills .progress[data-skill="vb.net"] .progress-bar{
+  background: linear-gradient(135deg, #512bd4 0%, #7c4dff 100%);
+}
+.skills .progress[data-skill="python"] .progress-bar{
+  background: linear-gradient(135deg, #3776ab 0%, #ffd43b 100%); 
+}
+.skills .progress[data-skill="figma"] .progress-bar{
+  background: linear-gradient(135deg, #f24e1e 0%, #a259ff 100%);
 }
 /*--------------------------------------------------------------
 # Resume Section
