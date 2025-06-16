@@ -1029,6 +1029,21 @@ main .section{
   opacity: 0;
   animation: fadeIn 0.3s forwards;
 }
+.skills .progress[data-skill="sql"] .progress-bar:hover::before{
+  content: "Efficient - Self Studied CRUD";
+  position: absolute;
+  left: 10px;
+  top: -28px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 999;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
 
 @keyframes fadeIn{
   to{
