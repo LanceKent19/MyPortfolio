@@ -1,7 +1,7 @@
 <section id="skills" class="skills section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
         <h2>Skills</h2>
         <p> I have experience working with Java, SQL, JavaScript, HTML, and CSS, along with modern frameworks and technologies as an IT student and passionate about software development.</p>
       </div><!-- End Section Title -->
@@ -20,13 +20,14 @@
                   </div>
                     <span style="color: #f89820;">Java</span>
                 </div>
-                <i class="val">80%</i>
               </span>
               <div class="skill-description">
                 <p>Gained proficiency through TESDA certification and academic projects. Experienced in object-oriented programming, data structures, and building console applications.</p>
               </div>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <i class="val">80%</i>
+                </div>
               </div>
             </div><!-- End Skills Item -->
 
@@ -38,14 +39,14 @@
                   </div>
                   <span style="color: #1d7bd3;">SQL</span>
                 </div>
-                <i class="val">60%</i>
               </span>
               <div class="skill-description">
                 <p>Learning database design and management through coursework. Can write basic queries, joins, and understand relational database concepts.</p>
               </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <i class="val">60%</i>  
+              </div>
               </div>
             </div><!-- End Skills Item -->
 
@@ -57,14 +58,14 @@
                   </div>
                    <span style="color:  #e34f26;">HTML</span>
                 </div>
-                <i class="val">75%</i>
               </span>
               <div class="skill-description">
                 <p>Solid foundation in semantic HTML5. Can structure web pages effectively and understand accessibility principles from web development courses.</p>
               </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <i class="val">75%</i>
+              </div>
               </div>
             </div><!-- End Skills Item -->
             <div class="progress" data-skill="css">
@@ -74,14 +75,14 @@
                 </div>
                 <span style="color: #1572b6;">CSS</span>
                 </div>
-                <i class="val">70%</i>
               </span>
               <div class="skill-description">
                 <p>Comfortable with modern CSS3, flexbox, grid layouts, and responsive design. Currently learning advanced animations and frameworks.</p>
               </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <i class="val">70%</i>
+              </div>
               </div>
             </div><!-- End Skills Item -->
           </div>
@@ -96,14 +97,14 @@
                   </div>
                   <span style="color: #777bb4;">PHP</span>
                 </div>
-                <i class="val">60%</i>
               </span>
               <div class="skill-description">
                 <p>Exploring server-side development through academic projects. Can create basic dynamic web applications and understand MVC architecture concepts.</p>
               </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
+              <i class="val">60%</i>  
+              </div>
               </div>
             </div><!-- End Skills Item -->
 
@@ -114,14 +115,14 @@
                 </div>
                 <span style="color: #512bd4 ;">VB.NET</span>
                 </div>
-                <i class="val">60%</i>
               </span>
               <div class="skill-description">
                 <p>Learning .NET framework development for Windows applications. Understanding event-driven programming and form-based applications.</p>
               </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <i class="val">60%</i>  
+              </div>
               </div>
             </div><!-- End Skills Item -->
 
@@ -132,14 +133,14 @@
                 </div>
                 <span style="color: #3776ab;">Python</span>
                 </div>
-                <i class="val">60%</i>
               </span>
               <div class="skill-description">
                 <p>Self-learning Python for data analysis and automation. Familiar with basic syntax, libraries, and scripting for academic assignments.</p>
               </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <i class="val">60%</i> 
+              </div>
               </div>
             </div><!-- End Skills Item -->
             <div class="progress" data-skill="figma">
@@ -150,14 +151,14 @@
                   </div>
                   <span style="color: #f24e1e;">Figma</span>
                 </div>
-                <i class="val">75%</i>
               </span>
               <div class="skill-description">
                 <p>Proficient in UI/UX design and prototyping. Creating wireframes, mockups, and design systems for web and mobile applications in coursework.</p>
               </div>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <i class="val">75%</i>  
+              </div>
               </div>
             </div><!-- End Skills Item -->
           </div>
