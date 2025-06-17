@@ -1206,8 +1206,8 @@ main .section{
   display: inline-block;
   font-weight: 500;
   margin-bottom: 12px;
-  background-color: #eef5ff;
-  color: var(--accent-color);
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
+  color: white;
   border-radius: 20px;
   font-family: var(--nav-font);
   letter-spacing: 0.5px;
