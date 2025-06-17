@@ -1158,21 +1158,29 @@ main .section{
 /* Enhanced Resume Section */
 .resume .resume-title {
   color: var(--accent-color);
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 700;
   margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume .resume-title i{
+  font-size: 22px;
+  color: var(--accent-color);
 }
 .resume .resume-item {
-  padding: 25px 10px 25px 30px;
-  margin-top: -2px;
-  background: linear-gradient(var(--surface-color), var(--surface-color)) padding-box,
-              linear-gradient(135deg, #1e3c72 0%, #4facfe 100%) border-box;
-  position: relative;
-  transition: all 0.3s ease;
+  padding: 24px 28px;
+  border:1px solid rgba(30, 60, 114, 0.1);
+  /* margin-top: -2px; */
+  background: white;  
+  /* position: relative; */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
   transform: translateY(-10px);
 }
@@ -1188,7 +1196,7 @@ main .section{
   font-weight: 700;
   text-transform: none;
   color: var(--accent-color);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   letter-spacing: -0.5px;
 }
 
@@ -1197,8 +1205,8 @@ main .section{
   padding: 6px 16px;
   display: inline-block;
   font-weight: 500;
-  margin-bottom: 15px;
-  background: white;
+  margin-bottom: 12px;
+  background-color: #eef5ff;
   color: var(--accent-color);
   border-radius: 20px;
   font-family: var(--nav-font);
@@ -1220,7 +1228,7 @@ main .section{
 
 .resume .resume-item ul {
   padding-left: 20px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .resume .resume-item ul li {
@@ -1228,9 +1236,14 @@ main .section{
   line-height: 1.6;
   position: relative;
   color: var(--default-color);
-  list-style-type:circle ;
+  list-style-type: disc; ;
 }
-
+/* Make columns align better */
+.resume .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
