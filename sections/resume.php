@@ -13,7 +13,7 @@
         <div class="row">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Training</h3>
+            <h3 class="resume-title"><i class="bi bi-person-workspace"></i> Training</h3>
 
             <div class="resume-item">
               <h4>Training for Work Scholarship Program (TWSP)</h4>
@@ -26,7 +26,7 @@
               </p>
             </div>
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title"><i class="bi bi-mortarboard"></i> Education</h3>
             <div class="resume-item">
               <h4>Bachelor of Science in Information Technology</h4>
               <h5>2023 - Present</h5>
@@ -48,7 +48,7 @@
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title"><i class="bi bi-briefcase"></i> Professional Experience</h3>
             <div class="resume-item">
               <h4>Freelance Academic Tutor & Contributor</h4>
               <h5>2023 - Present</h5>

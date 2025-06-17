@@ -1015,7 +1015,7 @@ main .section{
   transform: translateY(0px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-.skills .progress[data-skill="java"]:hover::before{
+/* .skills .progress[data-skill="java"]:hover::before{
   content: "Proficient - TESDA Certified";
   position: absolute;
   left: 10px;
@@ -1044,7 +1044,7 @@ main .section{
   z-index: 999;
   opacity: 0;
   animation: fadeIn 0.3s forwards;
-}
+} */
 
 @keyframes fadeIn{
   to{
@@ -1227,7 +1227,7 @@ main .section{
   padding-bottom: 12px;
   line-height: 1.6;
   position: relative;
-  color: color-mix(in srgb, var(--default-color), transparent 10%);
+  color: var(--default-color);
   list-style-type:circle ;
 }
 
