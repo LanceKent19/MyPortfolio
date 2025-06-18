@@ -16,6 +16,9 @@
             <h3 class="resume-title"><i class="bi bi-person-workspace me-2"></i>Training</h3>
 
             <div class="resume-item">
+              <div class="resume-logos">
+                <img>
+              </div>
               <h4>Training for Work Scholarship Program (TWSP)</h4>
               <h5>November 11, 2024 - December 30, 2024</h5>
               <p><em>Certified in Computer Programming (Java) - NC III</em></p>
@@ -28,7 +31,10 @@
 
             <h3 class="resume-title"><i class="bi bi-mortarboard me-2"></i>Education</h3>
             <div class="resume-item">
-              <h4>Bachelor of Science in Information Technology</h4>
+           
+              <h4>   <div class="resume-logos">
+                <img src="../assets/img/resume-logos/qcu-logo.png">
+              </div>  Bachelor of Science in Information Technology</h4>
               <h5>2023 - Present</h5>
               <p><em>Quezon City University, Quezon City, Metro Manila</em></p>
               <p>Currently pursuing a Bachelor of Science in Information Technology, focusing on software development,
