@@ -1914,27 +1914,14 @@ main .section{
   transition: all 0.3s ease;
   cursor: pointer;
   position: relative;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
+  transform: translateY(-10px);
 }
 
 .project-card:hover{
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  transform: translateY(0px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-/* .project-card::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  transform: scaleX(0);
-  transform: scale(0);
-  transition: transform 0.3s ease;
-  z-index: 2;
-  
-} */
 .project-card:hover::before{
   transform: scaleX(1);
 }
@@ -2109,12 +2096,13 @@ main .section{
   transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
   position: relative;
   overflow: hidden;
-   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
+  transform: translateY(-10px);
 }
 
 .feature-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  transform: translateY(0px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .feature-card:hover::before{
