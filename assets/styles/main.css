@@ -1244,8 +1244,15 @@ main .section{
   flex-direction: column;
   gap: 30px;
 }
-.resume  .resume-logo{
-  
+.resume  .resume-header{
+  display: flex;
+}
+.resume .resume-header .resume-logos img{
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 /*--------------------------------------------------------------
 # Portfolio Section
