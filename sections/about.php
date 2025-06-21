@@ -4,7 +4,7 @@
         
         <h2>About</h2>
         <p>I am passionate about creating innovative and efficient software solutions that solve real-world problems, also
-          enjoys working through the entire development lifecycle, whether in a team or independently</p>
+          enjoys working through the entire development lifecycle, whether in a team or independently.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
