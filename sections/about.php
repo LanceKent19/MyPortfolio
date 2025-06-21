@@ -3,9 +3,8 @@
       <div class="container section-title" data-aos="fade-up">
         
         <h2>About</h2>
-        <!-- <p>I am passionate about creating innovative and efficient software solutions that solve real-world problems. I
-          enjoy working through the entire development lifecycle, from brainstorming ideas and designing intuitive
-          interfaces to coding, testing, and launching functional systems.</p> -->
+        <p>I am passionate about creating innovative and efficient software solutions that solve real-world problems, also
+          enjoys working through the entire development lifecycle, whether in a team or independently</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -16,6 +15,8 @@
                 <img src="assets/img/Graduation Pic.jpg" class="img-fluid" alt="">
               </div>
           </div>
+          
+          <!--Text Section -->
           <div class="col-lg-8 content">
             <h3>Software Developer Student</h3>
             <p class="fst-italic py-3">
@@ -33,7 +34,7 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-calendar me-2"></i><strong style="color: var(--accent-color);">Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-hourglass me-2"></i><strong style="color: var(--accent-color);">Age:</strong> <span>21</span></li>
                   <li><i class="bi bi-mortarboard me-2"></i><strong style="color: var(--accent-color);">Degree:</strong> <span>Bachelor</span></li>
                   <li><i class="bi bi-envelope me-2"></i><strong style="color: var(--accent-color);">Email:</strong>
                     <span>lancemagollado46@gmail.com</span>

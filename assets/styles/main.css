@@ -929,7 +929,7 @@ main .section{
   color: #333;  
 }
 .about .content ul strong {
-  margin-right: 10px;
+  min-width: 100px;
 }
 
 .about .content ul i {
