@@ -25,21 +25,20 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><strong style="color: var(--accent-color);">Nickname:</strong> <span>Lance</span></li>
-                  <li><strong style="color: var(--accent-color);">Birthday:</strong> <span>19 July 2003</span></li> 
-                  <li><strong style="color: var(--accent-color);">Phone:</strong> <span>+63 926 322 6163</span></li>
-                  <li><strong style="color: var(--accent-color);">City:</strong> <span>Quezon City, Metro Manila</span>
-                  </li>
+                  <li><i class="bi bi-person me-2"></i><strong style="color: var(--accent-color);">Nickname:</strong> <span>Lance</span></li>
+                  <li><i class="bi bi-calendar me-2"></i><strong style="color: var(--accent-color);">Birthday:</strong> <span>19 July 2003</span></li> 
+                  <li><i class="bi bi-phone me-2"></i><strong style="color: var(--accent-color);">Phone:</strong> <span>+63 926 322 6163</span></li>
+                  <li><i class="bi bi-geo-alt me-2"></i><strong style="color: var(--accent-color);">City:</strong> <span>Quezon City, Metro Manila</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><strong style="color: var(--accent-color);">Age:</strong> <span>21</span></li>
-                  <li><strong style="color: var(--accent-color);">Degree:</strong> <span>Bachelor</span></li>
-                  <li><strong style="color: var(--accent-color);">Email:</strong>
+                  <li><i class="bi bi-calendar me-2"></i><strong style="color: var(--accent-color);">Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-mortarboard me-2"></i><strong style="color: var(--accent-color);">Degree:</strong> <span>Bachelor</span></li>
+                  <li><i class="bi bi-envelope me-2"></i><strong style="color: var(--accent-color);">Email:</strong>
                     <span>lancemagollado46@gmail.com</span>
                   </li>
-                  <li><strong style="color: var(--accent-color);">Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-briefcase me-2"></i><strong style="color: var(--accent-color);">Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
             </div>
