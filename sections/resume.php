@@ -18,7 +18,7 @@
             <div class="resume-item">
               <div class="resume-header">
                 <div class="resume-logos me-2">
-                  <img src="../assets/img/resume-logos/tesda logo.jpg" alt="TESDA LOGO">
+                  <img src="../assets/img/resume-logos/tesda logo.png" alt="TESDA LOGO">
                 </div>
                 <h4>Training for Work Scholarship Program (TWSP)</h4>
               </div>
