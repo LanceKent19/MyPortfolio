@@ -1,4 +1,4 @@
-  <section id="resume" class="resume section">
+<section id="resume" class="resume section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -22,6 +22,9 @@
                 </div>
                 <h4>Training for Work Scholarship Program (TWSP)</h4>
               </div>
+              <div class="resume-bg-logo">
+                <img src="../assets/img/resume-logos/tesda logo.png" alt="TESDA LOGO BG">
+              </div>
               <h5>November 11, 2024 - December 30, 2024</h5>
               <p><em>Certified in Computer Programming (Java) - NC III</em></p>
               <p>
@@ -39,6 +42,9 @@
                 </div> 
               <h4>Bachelor of Science in Information Technology</h4>
               </div>
+              <div class="resume-bg-logo">
+                <img src="../assets/img/resume-logos/qcu logo.png" alt="QCU LOGO BG">
+              </div>
               <h5>2023 - Present</h5>
               <p><em>Quezon City University, Quezon City, Metro Manila</em></p>
               <p>Currently pursuing a Bachelor of Science in Information Technology, focusing on software development,
@@ -50,6 +56,9 @@
                   <img src="../assets/img/resume-logos/rosario institute logo.png" alt="Rosario Institute Logo">
                 </div>
                 <h4>ICT with Specialization in Computer Programming</h4>
+              </div>
+              <div class="resume-bg-logo">
+                <img src="../assets/img/resume-logos/rosario institute logo.png" alt="Rosario Institute Logo BG">
               </div>
               <h5>2019 - 2021</h5>
               <p><em>Rosario Institute, Rosario, Cavite</em></p>
@@ -70,6 +79,9 @@
                   <img src="../assets/img/resume-logos/studypool logo.png" alt="Study Pool Logo">
                 </div>
                   <h4>Freelance Academic Tutor & Contributor</h4>
+              </div>
+              <div class="resume-bg-logo">
+                <img src="../assets/img/resume-logos/studypool logo.png" alt="Study Pool Logo BG">
               </div>
               <h5>2023 - Present</h5>
               <p><em>StudyPool (Remote)</em></p>
