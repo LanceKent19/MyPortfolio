@@ -13,6 +13,9 @@
           <div class="col-lg-6">
 
             <div class="progress" data-skill="java">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/java.png" alt="Java Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo">
@@ -32,6 +35,9 @@
             </div><!-- End Skills Item -->
 
             <div class="progress" data-skill="sql">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/database.png" alt="SQL Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo">
@@ -51,6 +57,9 @@
             </div><!-- End Skills Item -->
 
             <div class="progress" data-skill="html">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/html.png" alt="HTML Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo">
@@ -69,6 +78,9 @@
               </div>
             </div><!-- End Skills Item -->
             <div class="progress" data-skill="css">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/css-3.png" alt="CSS Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo"><img src="../assets/img/tools-technologies/css-3.png" alt="CSS">
@@ -90,6 +102,9 @@
           <div class="col-lg-6">
 
             <div class="progress" data-skill="php">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/web.png" alt="PHP Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo">
@@ -109,6 +124,9 @@
             </div><!-- End Skills Item -->
 
             <div class="progress" data-skill="vb.net">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/visual-basic.png" alt="VISUAL BASIC Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo"><img src="../assets/img/tools-technologies/visual-basic.png" alt="VISUAL BASIC">
@@ -127,6 +145,9 @@
             </div><!-- End Skills Item -->
 
             <div class="progress" data-skill="python">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/python.png" alt="Python Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo"><img src="../assets/img/tools-technologies/python.png" alt="Python">
@@ -144,6 +165,9 @@
               </div>
             </div><!-- End Skills Item -->
             <div class="progress" data-skill="figma">
+              <div class="skill-bg-logo">
+                <img src="../assets/img/tools-technologies/figma.png" alt="Figma Background Logo">
+              </div>
               <span class="skill">
                 <div class="skill-name">
                   <div class="skill-logo">

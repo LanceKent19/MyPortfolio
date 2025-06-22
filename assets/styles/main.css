@@ -998,6 +998,8 @@ main .section{
 # Skills Section
 --------------------------------------------------------------*/
 .skills .progress {
+  position: relative;
+  overflow: hidden !important;
   transform: translateY(-10px);
   height: 165px;
   display: block;
@@ -1115,6 +1117,7 @@ main .section{
   border-radius: 6px;
   overflow: visible;
   position: relative;
+
 }
 
 .skills .progress[data-skill="java"] .progress-bar{
@@ -1152,6 +1155,35 @@ main .section{
   background:linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent);
   animation: shimmer 2s infinite;
 }
+
+.skills .progress {
+  position: relative;
+}
+
+.skill-bg-logo {
+  position: absolute;
+  bottom: 5px;
+  right: 18px;
+  z-index: 0;
+  opacity: 0.4;
+  pointer-events: none;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.skill-bg-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.skills .progress > *:not(.skill-bg-logo) {
+  position: relative;
+  z-index: 1;
+}
+
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
@@ -1448,7 +1480,7 @@ main .section{
 }
 
 .services .service-item.software-applications i {
-  color:#3bb18a;
+  color: #3bb18a;
 }
 
 .services .service-item.software-applications:hover .icon i {
