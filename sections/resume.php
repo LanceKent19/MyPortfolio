@@ -67,10 +67,7 @@
                 gaining foundational knowledge in coding, software development, and database management.</p>
 
             </div><!-- Edn Resume Item -->
-
-
           </div>
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title"><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
             <div class="resume-item">

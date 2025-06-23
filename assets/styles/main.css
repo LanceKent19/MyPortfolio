@@ -1305,6 +1305,31 @@ main .section{
   justify-content: flex-end;
   overflow: hidden;
 }
+
+.studypool{
+  bottom: -20px;
+  right: -130px;
+  width: 430px;
+  height: 430px;
+}
+.tesda{
+  bottom: -50px;
+  right: -100px;
+  width: 400px;
+  height: 400px;
+}
+.qcu{
+  top: 10px;
+  right: -50px;
+  width: 230px;
+  height: 230px;
+}
+.rosario-institute{
+  bottom: 10px;
+  right: -50px;
+  width: 230px;
+  height: 230px;
+}
 .resume-bg-logo img {
   width: 100%;
   height: 100%;
