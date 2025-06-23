@@ -22,7 +22,7 @@
                 </div>
                 <h4>Training for Work Scholarship Program (TWSP)</h4>
               </div>
-              <div class="resume-bg-logo">
+              <div class="resume-bg-logo tesda">
                 <img src="../assets/img/resume-logos/tesda logo.png" alt="TESDA LOGO BG">
               </div>
               <h5>November 11, 2024 - December 30, 2024</h5>
@@ -42,7 +42,7 @@
                 </div> 
               <h4>Bachelor of Science in Information Technology</h4>
               </div>
-              <div class="resume-bg-logo">
+              <div class="resume-bg-logo qcu">
                 <img src="../assets/img/resume-logos/qcu logo.png" alt="QCU LOGO BG">
               </div>
               <h5>2023 - Present</h5>
@@ -57,7 +57,7 @@
                 </div>
                 <h4>ICT with Specialization in Computer Programming</h4>
               </div>
-              <div class="resume-bg-logo">
+              <div class="resume-bg-logo rosario-institute">
                 <img src="../assets/img/resume-logos/rosario institute logo.png" alt="Rosario Institute Logo BG">
               </div>
               <h5>2019 - 2021</h5>
@@ -80,7 +80,7 @@
                 </div>
                   <h4>Freelance Academic Tutor & Contributor</h4>
               </div>
-              <div class="resume-bg-logo">
+              <div class="resume-bg-logo studypool">
                 <img src="../assets/img/resume-logos/studypool logo.png" alt="Study Pool Logo BG">
               </div>
               <h5>2023 - Present</h5>
