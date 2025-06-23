@@ -1319,16 +1319,16 @@ main .section{
   height: 400px;
 }
 .qcu{
-  top: 10px;
+  top: -30px;
   right: -50px;
-  width: 230px;
-  height: 230px;
+  width: 250px;
+  height: 250px;
 }
 .rosario-institute{
-  bottom: 10px;
+  bottom: -30px;
   right: -50px;
-  width: 230px;
-  height: 230px;
+  width: 250px;
+  height: 250px;
 }
 .resume-bg-logo img {
   width: 100%;
