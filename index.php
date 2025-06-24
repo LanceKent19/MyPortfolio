@@ -31,6 +31,16 @@
 </head>
 
 <body >
+  <div class="dev-bg-anim" aria-hidden="true">
+    <span class="dev-symbol">{</span>
+    <span class="dev-symbol">}</span>
+    <span class="dev-symbol">&lt;/&gt;</span>
+    <span class="dev-symbol">;</span>
+    <span class="dev-symbol">#</span>
+    <span class="dev-symbol">()</span>
+    <span class="dev-symbol">[ ]</span>
+    <span class="dev-symbol">&lt;?&gt;</span>
+  </div>
 
   <header id="header" class="header d-flex flex-column justify-content-center">
 

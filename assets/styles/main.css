@@ -2419,3 +2419,111 @@ main .section{
   /* Add your styles here */
 /* } */
 
+.dev-bg-anim {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.13;
+}
+.dev-bg-anim .dev-symbol {
+  position: absolute;
+  font-size: clamp(2.5rem, 7vw, 6rem);
+  font-family: var(--heading-font), monospace;
+  font-weight: 800;
+  color: var(--accent-color);
+  opacity: 1;
+  filter: none;
+  user-select: none;
+  pointer-events: none;
+}
+.dev-bg-anim .dev-symbol:nth-child(1) {
+  left: 8vw; top: 12vh;
+  animation: dev-bg-float-1 18s linear infinite;
+  color: #1e3c72;
+}
+.dev-bg-anim .dev-symbol:nth-child(2) {
+  left: 80vw; top: 18vh;
+  animation: dev-bg-float-2 22s linear infinite;
+  color: #2a5298;
+}
+.dev-bg-anim .dev-symbol:nth-child(3) {
+  left: 40vw; top: 70vh;
+  animation: dev-bg-float-3 20s linear infinite;
+  color: #f46b45;
+}
+.dev-bg-anim .dev-symbol:nth-child(4) {
+  left: 60vw; top: 50vh;
+  animation: dev-bg-float-4 24s linear infinite;
+  color: #eea849;
+}
+.dev-bg-anim .dev-symbol:nth-child(5) {
+  left: 20vw; top: 60vh;
+  animation: dev-bg-float-5 19s linear infinite;
+  color: color-mix(in srgb, #1e3c72 60%, #eea849 40%);
+}
+.dev-bg-anim .dev-symbol:nth-child(6) {
+  left: 70vw; top: 80vh;
+  animation: dev-bg-float-6 23s linear infinite;
+  color: color-mix(in srgb, #2a5298 60%, #f46b45 40%);
+}
+.dev-bg-anim .dev-symbol:nth-child(7) {
+  left: 30vw; top: 30vh;
+  animation: dev-bg-float-7 21s linear infinite;
+  color: color-mix(in srgb, #f46b45 60%, #1e3c72 40%);
+}
+.dev-bg-anim .dev-symbol:nth-child(8) {
+  left: 55vw; top: 10vh;
+  animation: dev-bg-float-8 25s linear infinite;
+  color: color-mix(in srgb, #eea849 60%, #2a5298 40%);
+}
+@keyframes dev-bg-float-1 {
+  0% { transform: translateY(0) scale(1) rotate(-8deg); }
+  50% { transform: translateY(-60px) scale(1.08) rotate(8deg); }
+  100% { transform: translateY(0) scale(1) rotate(-8deg); }
+}
+@keyframes dev-bg-float-2 {
+  0% { transform: translateY(0) scale(1) rotate(8deg); }
+  50% { transform: translateY(60px) scale(1.1) rotate(-8deg); }
+  100% { transform: translateY(0) scale(1) rotate(8deg); }
+}
+@keyframes dev-bg-float-3 {
+  0% { transform: translateX(0) scale(1) rotate(0deg); }
+  50% { transform: translateX(-60px) scale(1.08) rotate(8deg); }
+  100% { transform: translateX(0) scale(1) rotate(0deg); }
+}
+@keyframes dev-bg-float-4 {
+  0% { transform: translateX(0) scale(1) rotate(-8deg); }
+  50% { transform: translateX(60px) scale(1.1) rotate(8deg); }
+  100% { transform: translateX(0) scale(1) rotate(-8deg); }
+}
+@keyframes dev-bg-float-5 {
+  0% { transform: translateY(0) scale(1) rotate(0deg); }
+  50% { transform: translateY(-40px) scale(1.08) rotate(-8deg); }
+  100% { transform: translateY(0) scale(1) rotate(0deg); }
+}
+@keyframes dev-bg-float-6 {
+  0% { transform: translateY(0) scale(1) rotate(8deg); }
+  50% { transform: translateY(40px) scale(1.1) rotate(-8deg); }
+  100% { transform: translateY(0) scale(1) rotate(8deg); }
+}
+@keyframes dev-bg-float-7 {
+  0% { transform: translateX(0) scale(1) rotate(0deg); }
+  50% { transform: translateX(40px) scale(1.08) rotate(-8deg); }
+  100% { transform: translateX(0) scale(1) rotate(0deg); }
+}
+@keyframes dev-bg-float-8 {
+  0% { transform: translateX(0) scale(1) rotate(-8deg); }
+  50% { transform: translateX(-40px) scale(1.1) rotate(8deg); }
+  100% { transform: translateX(0) scale(1) rotate(-8deg); }
+}
+@media (max-width: 600px) {
+  .dev-bg-anim .dev-symbol { font-size: 2rem; }
+}
+body, main, .main {
+  position: relative;
+  z-index: 1;
+}
