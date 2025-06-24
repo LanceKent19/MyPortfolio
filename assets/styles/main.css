@@ -387,7 +387,7 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 12px;
 }
 .preloader-progress-wrap {
   position: relative;
@@ -407,11 +407,13 @@ h6 {
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(30,60,114,0.10);
   transform: translate(-50%, -50%);
-  animation: preloader-logo-spin 1.2s linear infinite;
 }
-@keyframes preloader-logo-spin {
-  0% { transform: translate(-50%, -50%) rotate(0deg); }
-  100% { transform: translate(-50%, -50%) rotate(360deg); }
+.swing-effect {
+  animation: preloader-logo-swing 1.2s cubic-bezier(0.4,0,0.2,1) infinite alternate;
+}
+@keyframes preloader-logo-swing {
+  0% { transform: translate(-50%, -50%) rotate(-8deg) scale(1); }
+  100% { transform: translate(-50%, -50%) rotate(8deg) scale(1.08); }
 }
 .preloader-progress {
   width: 90px;
@@ -423,19 +425,17 @@ h6 {
   opacity: 0.5;
 }
 .preloader-bar {
-  stroke: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: stroke;
-  background-clip: stroke;
+  stroke: url(#preloader-gradient);
   stroke-dasharray: 251.2;
   stroke-dashoffset: 251.2;
   animation: preloader-progress-bar 1.8s cubic-bezier(0.4,0,0.2,1) infinite;
   stroke-linecap: round;
 }
 @keyframes preloader-progress-bar {
-  0% { stroke-dashoffset: 251.2; }
-  60% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 0; opacity: 0.2; }
+  0% { stroke-dashoffset: 251.2; opacity: 1; }
+  60% { stroke-dashoffset: 0; opacity: 1; }
+  80% { stroke-dashoffset: 0; opacity: 0; }
+  100% { stroke-dashoffset: 251.2; opacity: 0; }
 }
 .preloader-title {
   font-family: 'Roboto', sans-serif;
