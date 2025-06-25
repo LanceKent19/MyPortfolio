@@ -38,7 +38,7 @@
     <span class="dev-symbol">;</span>
     <span class="dev-symbol">#</span>
     <span class="dev-symbol">()</span>
-    <span class="dev-symbol">[ ]</span>
+    <span class="dev-symbol">[]</span>
     <span class="dev-symbol">&lt;?&gt;</span>
   </div>
 

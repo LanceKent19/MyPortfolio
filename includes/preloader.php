@@ -1,12 +1,11 @@
-  <!-- Preloader -->
+<!-- Preloader -->
   <div id="preloader">
     <div class="preloader-inner">
       <div class="preloader-progress-wrap">
         <svg class="preloader-progress" width="90" height="90" viewBox="0 0 90 90">
           <defs>
             <linearGradient id="preloader-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#1e3c72"/>
-              <stop offset="50%" stop-color="#f46b45"/>
+              <stop offset="0%" stop-color="#f46b45"/>
               <stop offset="100%" stop-color="#eea849"/>
             </linearGradient>
           </defs>
