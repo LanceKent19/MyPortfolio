@@ -12,7 +12,7 @@
           <circle class="preloader-bg" cx="45" cy="45" r="40" stroke-width="8" fill="none" />
           <circle class="preloader-bar" cx="45" cy="45" r="40" stroke-width="8" fill="none" stroke="url(#preloader-gradient)" />
         </svg>
-        <img src="assets/img/Logo-modified.png" alt="Logo" class="preloader-logo swing-effect">
+        <img src="../assets/img/Logo-modified.png" alt="Logo" class="preloader-logo swing-effect">
       </div>
       <div class="preloader-title">BuiltByLance</div>
     </div>

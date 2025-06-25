@@ -30,7 +30,9 @@
 </head>
 
 <body class="portfolio-details-page">
-
+  <?php
+  include_once("../includes/symbol-bg.php");
+  ?>
   <header id="header" class="header d-flex flex-column justify-content-center">
 
     <i class="header-toggle d-xl-none bi bi-list"></i>
@@ -274,7 +276,9 @@
     <!-- Scroll Top -->
 
   <!-- Preloader -->
-  <div id="preloader"></div>
+  <?php
+  include_once("../includes/preloader.php");
+  ?>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
