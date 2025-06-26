@@ -743,7 +743,7 @@ main .section{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -100px;
+
 }
 
 .image-container {
@@ -752,10 +752,12 @@ main .section{
   height: 350px;
   transition: all 0.3s ease;
   border-radius: 20px;
+  top: -100px;
+  left:-40px;
 }
-.image-container:hover{
+/* .image-container:hover{
   transform: translateY(-10px);
-}
+} */
 
 /* @keyframes floatEffect{
   0%{
@@ -789,7 +791,7 @@ main .section{
 } */
 
 /* Decorative Elements */
-.image-container::before {
+/* .image-container::before {
   content: '';
   position: absolute;
   top: -20px;
@@ -812,7 +814,7 @@ main .section{
   border-radius: 50%;
   z-index: 0;
   opacity: 0.1;
-}
+} */
 
 /* Social Icons */
 .social-icons {
