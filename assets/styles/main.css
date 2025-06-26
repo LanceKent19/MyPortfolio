@@ -737,13 +737,13 @@ main .section{
 }
 
 /* Image Section */
-.image-section {
+.hero .image-section {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -80px;
+  top: -100px;
 }
 
 .image-container {
@@ -755,9 +755,6 @@ main .section{
 }
 .image-container:hover{
   transform: translateY(-10px);
-  box-shadow: 
-      0 25px 80px rgba(30, 60, 114, 0.4),
-      0 12px 35px rgba(0, 0, 0, 0.15);
 }
 
 /* @keyframes floatEffect{
@@ -986,7 +983,13 @@ main .section{
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
+.about .image-section{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .about .img-fluid{
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
