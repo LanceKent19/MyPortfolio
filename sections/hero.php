@@ -34,7 +34,7 @@
             <div class="image-section"  data-aos="zoom-out">
                 <div class="image-container">
                     <!-- Replace this src with your actual image -->
-                   <img src="assets/img/bgphoto.png" alt="" class="profile-image">                
+                   <img src="assets/img/me-photo/me-1.png" alt="" class="profile-image">                
                 </div>
             </div>
         </div>
