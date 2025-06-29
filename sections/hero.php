@@ -52,17 +52,17 @@
                         }
                     </script>
                     <!-- Replace this src with your actual image -->
-                         <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-wrapper align-items-center">
                              <div class="swiper-slide">
                                  <img src="assets/img/me-photo/me-1.png" alt="" class="profile-image">
                              </div>
                              <div class="swiper-slide">
                                  <img src="assets/img/me-photo/me-2.jpg" alt="" class="profile-image">
                          </div>
-                         <div class="swiper-slide">
-                          <img src="assets/img/me-photo/me-3.jpg" alt="" class="profile-image">
-                         </div>
-                </div>
+                            <div class="swiper-slide">
+                            <img src="assets/img/me-photo/me-3.png" alt="" class="profile-image">
+                            </div>
+                        </div>
             </div>
         </div>
      </main>
