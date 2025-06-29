@@ -23,7 +23,6 @@
                 <p class="description" style="font-family: Roboto">I'm a <span class="typed" style="color: #1e3c72; font-weight: 600;"
                 data-typed-items="Developer., Freelancer., Designer., Programmer."></span><span
                 class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-                
                 <div class="cta-buttons">
                     <a href="#portfolio" class="btn btn-primary">View My Work</a>
                     <a href="assets/files/cv.pdf" download class="btn btn-secondary">Download CV</a>
@@ -31,10 +30,38 @@
             </div>
 
             <!-- Image Section -->
-            <div class="image-section"  data-aos="zoom-out">
-                <div class="image-container">
+            <div class="image-section " data-aos="zoom-out">
+                <div class="image-container swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                                    {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                            "delay": 3000
+                        },
+                        "slidesPerView": "auto",
+                        "navigation": {
+                            "nextEl": ".swiper-button-next",
+                            "prevEl": ".swiper-button-prev"
+                        },
+                        "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                        }
+                        }
+                    </script>
                     <!-- Replace this src with your actual image -->
-                   <img src="assets/img/me-photo/me-1.png" alt="" class="profile-image">                
+                         <div class="swiper-wrapper align-items-center">
+                             <div class="swiper-slide">
+                                 <img src="assets/img/me-photo/me-1.png" alt="" class="profile-image">
+                             </div>
+                             <div class="swiper-slide">
+                                 <img src="assets/img/me-photo/me-2.jpg" alt="" class="profile-image">
+                         </div>
+                         <div class="swiper-slide">
+                          <img src="assets/img/me-photo/me-3.jpg" alt="" class="profile-image">
+                         </div>
                 </div>
             </div>
         </div>
