@@ -31,7 +31,7 @@
 
             <!-- Image Section -->
             <div class="image-section " data-aos="zoom-out">
-                <div class="image-container swiper init-swiper">
+                <div class="image-container swiper init-swiper tilted-card-figure">
                     <script type="application/json" class="swiper-config">
                                     {
                         "loop": true,
@@ -50,6 +50,15 @@
                             "clickable": true
                         }
                         }
+                        
+                    </script>
+                    <script>
+                          VanillaTilt.init(document.querySelectorAll(".tilted-card-figure"), {
+                            max: 14,
+                            speed: 400,
+                            scale: 1.08,
+                            glare: false
+                        });
                     </script>
                     <!-- Replace this src with your actual image -->
                         <div class="swiper-wrapper align-items-center">

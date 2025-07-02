@@ -28,6 +28,7 @@
   <!-- Main CSS File -->
   <link href="assets/styles/main.css" rel="stylesheet">
 
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
 </head>
 
 <body >
