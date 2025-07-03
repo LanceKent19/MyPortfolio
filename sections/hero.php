@@ -1,16 +1,6 @@
     <!-- Main Content -->
      <main id="hero" class="hero section">
         <!-- Social Icons -->
-         
-        <div class="social-icons" data-aos="zoom-out">
-              <a href="https://www.figma.com/files/team/1419152086350727549/recents-and-sharing?fuid=1419152081943686518" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/ikent_lance/" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/lancemagollado" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
-              <a href="https://www.youtube.com/@ransuru_19" target="_blank" class="social-icon"><i class="bi bi-youtube"></i></a>
-              <a href="https://x.com/Ikent_Lance" target="_blank" class="social-icon"><i class="fab fa-figma"></i></a>
-              <a href="https://github.com/LanceKent19" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
-        </div>
-
         <div class="content-wrapper">
             <!-- Text Content -->
              <!-- <div class="background-name" data-aos="zoom-out">
@@ -73,5 +63,14 @@
                             </div>
                         </div>
             </div>
+        </div>
+
+        <div class="social-icons" data-aos="zoom-out">
+              <a href="https://www.figma.com/files/team/1419152086350727549/recents-and-sharing?fuid=1419152081943686518" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/ikent_lance/" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/lancemagollado" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.youtube.com/@ransuru_19" target="_blank" class="social-icon"><i class="bi bi-youtube"></i></a>
+              <a href="https://x.com/Ikent_Lance" target="_blank" class="social-icon"><i class="fab fa-figma"></i></a>
+              <a href="https://github.com/LanceKent19" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
         </div>
      </main>

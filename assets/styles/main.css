@@ -736,6 +736,11 @@ main .section{
   cursor:grab;
 }
 
+.tilted-card-figure:hover{
+  box-shadow: 0 20px 60px rgba(30, 60, 114, 0.3),
+              0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 768px) {
   .image-container{
     top:0;
@@ -748,15 +753,15 @@ main .section{
 /* Social Icons */
 .social-icons {
   position: absolute;
-  top: 20px;
-  right: 60px;
+  bottom: 80px;
+  right: 160px;
   display: flex;
-  gap: 15px;
+  gap: 23px;
 }
 
 .social-icon {
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -772,12 +777,14 @@ main .section{
 .social-icon i {
   text-align: center;
   justify-content: center;
+  align-items: center;
   color: #1e3c72;
   width: 20px;
   height: 20px;
   position: relative;
   z-index: 2;
   transition: all 0.3s ease;
+  font-size: 15px;
 }
 
 .social-icon:hover {
