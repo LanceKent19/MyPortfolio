@@ -189,7 +189,7 @@ h6 {
 }
 
 .header .header-toggle {
-  transition: all 0.3s ease;
+  transition: all 0.4s;
   color: var(--accent-color);
   background: white;
   font-size: 22px;

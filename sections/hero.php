@@ -3,7 +3,7 @@
         <!-- Social Icons -->
         <div class="content-wrapper">
             <!-- Text Content -->
-             <!-- <div class="background-name" data-aos="zoom-out">
+           <!-- <div class="background-name" data-aos="zoom-out">
              <div class="first-name">Lance Kent</div>
               <div class="second-name">Geoffrey</div>
               <div class="last-name">Magollado</div>
@@ -64,5 +64,6 @@
               <a href="https://www.youtube.com/@ransuru_19" target="_blank" class="social-icon"><i class="bi bi-youtube"></i></a>
               <a href="https://x.com/Ikent_Lance" target="_blank" class="social-icon"><i class="fab fa-figma"></i></a>
               <a href="https://github.com/LanceKent19" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
+        </div>
         </div>
      </main>
