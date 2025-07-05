@@ -1,4 +1,4 @@
-<!-- Main Content -->
+    <!-- Main Content -->
      <main id="hero" class="hero section">
         <!-- Social Icons -->
         <div class="content-wrapper">
@@ -20,76 +20,49 @@
             </div>
 
             <!-- Image Section -->
-            <div class="image-section" data-aos="zoom-out">
-              <div class="image-container swiper init-swiper tilted-card-figure" style="position: relative;">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 3000
-                    },
-                    "slidesPerView": "auto",
-                    "navigation": {
-                      "nextEl": ".swiper-button-next",
-                      "prevEl": ".swiper-button-prev"
-                    },
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    }
-                  }
-                </script>
-                <script>
-                  VanillaTilt.init(document.querySelectorAll(".tilted-card-figure"), {
-                    max: 14,
-                    speed: 400,
-                    scale: 1.08,
-                    glare: false
-                  });
-                </script>
-                <div class="swiper-wrapper align-items-center">
-                  <div class="swiper-slide">
-                    <img src="assets/img/me-photo/me-1.png" alt="" class="profile-image">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="assets/img/me-photo/me-2.jpg" alt="" class="profile-image">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="assets/img/me-photo/me-3.png" alt="" class="profile-image">
-                  </div>
-                </div>
-                <!-- Social icons overlay, hidden by default, shown on hover -->
-                <div class="profile-social-overlay">
-                  <a href="https://www.figma.com/files/team/1419152086350727549/recents-and-sharing?fuid=1419152081943686518" target="_blank" class="social-icon profile-social-icon"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/ikent_lance/" target="_blank" class="social-icon profile-social-icon"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/lancemagollado" target="_blank" class="social-icon profile-social-icon"><i class="bi bi-linkedin"></i></a>
-                  <a href="https://www.youtube.com/@ransuru_19" target="_blank" class="social-icon profile-social-icon"><i class="bi bi-youtube"></i></a>
-                  <a href="https://x.com/Ikent_Lance" target="_blank" class="social-icon profile-social-icon"><i class="fab fa-figma"></i></a>
-                  <a href="https://github.com/LanceKent19" target="_blank" class="social-icon profile-social-icon"><i class="bi bi-github"></i></a>
-                </div>
-                <script>
-                  // Animate social icons overlay on hover with creative effect
-                  const tiltedCard = document.querySelector('.tilted-card-figure');
-                  const overlay = tiltedCard.querySelector('.profile-social-overlay');
-                  const icons = overlay.querySelectorAll('.profile-social-icon');
-                  tiltedCard.addEventListener('mouseenter', () => {
-                    overlay.classList.add('show-social-overlay');
-                    icons.forEach((icon, i) => {
-                      icon.style.transitionDelay = (0.08 * i) + 's';
-                      icon.classList.add('icon-pop-in');
-                    });
-                  });
-                  tiltedCard.addEventListener('mouseleave', () => {
-                    overlay.classList.remove('show-social-overlay');
-                    icons.forEach((icon) => {
-                      icon.style.transitionDelay = '';
-                      icon.classList.remove('icon-pop-in');
-                    });
-                  });
-                </script>
-              </div>
+            <div class="image-section " data-aos="zoom-out">
+                <div class="image-container swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                                    {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                            "delay": 3000
+                        },
+                        "slidesPerView": "auto",
+                        "navigation": {
+                            "nextEl": ".swiper-button-next",
+                            "prevEl": ".swiper-button-prev"
+                        },
+                        "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                        }
+                        }
+                        
+                    </script>
+                    <!-- Replace this src with your actual image -->
+                        <div class="swiper-wrapper align-items-center">
+                             <div class="swiper-slide">
+                                 <img src="assets/img/me-photo/me-1.png" alt="" class="profile-image">
+                             </div>
+                             <div class="swiper-slide">
+                                 <img src="assets/img/me-photo/me-2.jpg" alt="" class="profile-image">
+                         </div>
+                            <div class="swiper-slide">
+                            <img src="assets/img/me-photo/me-3.png" alt="" class="profile-image">
+                            </div>
+                        </div>
             </div>
+        </div>
 
+        <div class="social-icons" data-aos="zoom-out">
+              <a href="https://www.figma.com/files/team/1419152086350727549/recents-and-sharing?fuid=1419152081943686518" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/ikent_lance/" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/lancemagollado" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.youtube.com/@ransuru_19" target="_blank" class="social-icon"><i class="bi bi-youtube"></i></a>
+              <a href="https://x.com/Ikent_Lance" target="_blank" class="social-icon"><i class="fab fa-figma"></i></a>
+              <a href="https://github.com/LanceKent19" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
+        </div>
      </main>
