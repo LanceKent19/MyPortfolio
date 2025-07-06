@@ -89,7 +89,7 @@
 
     <!-- Services Section -->
      <?php
-     include_once("sections/services.php");
+    //  include_once("sections/services.php");
      ?>
     <!-- /Services Section -->
 
