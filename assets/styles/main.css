@@ -619,7 +619,7 @@ main .section{
   display: inline-block;
 }
 .content-wrapper {
-  padding: 100px 40px 60px;
+  padding: 90px 40px 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -718,7 +718,7 @@ main .section{
   height: 350px;
   transition: all 0.3s ease;
   border-radius: 20px;
-  top:-10px;
+
 }
 
 .profile-image {
@@ -750,11 +750,14 @@ main .section{
 
 /* Social Icons */
 .social-icons {
+  margin-top: 40px;
   position: absolute;
   bottom: 90px;
   right: 160px;
   display: flex;
+  flex-wrap: wrap;
   gap: 23px;
+  align-items: center;
 }
 
 .social-icon {
