@@ -620,7 +620,7 @@ main .section{
   display: inline-block;
 }
 .content-wrapper {
-  padding: 90px 40px 60px;
+  padding: 50px 40px 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
