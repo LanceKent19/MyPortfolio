@@ -9,7 +9,7 @@
               <div class="last-name">Magollado</div>
              </div> -->
             <div class="text-content"  data-aos="zoom-out">
-                <h1 class="name">Lance Kent Geoffrey <br>Magollado</h1>
+                <h1 class="name">Lance Kent Geoffrey Magollado</h1>
                 <p class="description" style="font-family: Roboto">I'm a <span class="typed" style="color: #1e3c72; font-weight: 600;"
                 data-typed-items="Developer., Freelancer., Designer., Programmer."></span><span
                 class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>

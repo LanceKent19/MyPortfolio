@@ -619,8 +619,7 @@ main .section{
   display: inline-block;
 }
 .content-wrapper {
-  top: 140px;
-  left: 100px;
+  padding: 100px 40px 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -629,14 +628,14 @@ main .section{
   margin: 0 auto;
   position: relative; /* make sure child absolute positioning works */
   z-index: 2;
+  flex-wrap: wrap;
 }
 
 .text-content {
   flex: 1;
   max-width: 100%;
-  padding-left: 10px;
-  padding-right: 60px;
-  margin-bottom: 180px;
+  padding:0;
+  margin: 0;
 }
 
 .name {
@@ -719,8 +718,7 @@ main .section{
   height: 350px;
   transition: all 0.3s ease;
   border-radius: 20px;
-  top: -110px;
-  left:-40px;
+  top:-10px;
 }
 
 .profile-image {
