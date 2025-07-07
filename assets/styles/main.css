@@ -610,9 +610,10 @@ main .section{
   display: flex;
   position: relative;
   z-index: 1;
-  padding-bottom: 180px;
+  padding: 80px 20px;
   justify-content: center;
-  flex-direction: column; /* optional */
+  align-items: center;
+  flex-direction: column;
 }
 .name-wrapper {
   position: relative;
@@ -713,6 +714,7 @@ main .section{
 }
 
 .image-container {
+  margin-top: 40px;
   position: relative;
   width: 330px;
   height: 350px;
@@ -807,21 +809,6 @@ main .section{
     text-align: center;
     padding: 0 20px;
   }
-  .first-name{
-    top:-40px;
-    font-size: 3rem;
-    left: -100px;
-  }
-  .second-name{
-    top:-40px;
-    font-size: 3rem;
-    left: 125px;
-  }
-  .last-name{
-    top:10px;
-    font-size: 3rem;
-    left: -5px;
-  }
   .text-content {
     padding: 0;
     margin-bottom: 40px;
@@ -857,23 +844,6 @@ main .section{
   .social-icon {
     width: 40px;
     height: 40px;
-  }
-}
-@media (max-width: 400px) {
-  .first-name{
-    top:-20px;
-    font-size: 2.5rem;
-    left: -18px;
-  }
-  .second-name{
-    top:20px;
-    font-size: 2.5rem;
-    left: -20px;
-  }
-  .last-name{
-    top: 55px;
-    font-size: 2.5rem;
-    left: -23px;
   }
 }
 
