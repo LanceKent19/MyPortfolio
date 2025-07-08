@@ -711,7 +711,6 @@ main .section{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -40px;
 }
 
 .image-container {
@@ -892,6 +891,12 @@ main .section{
   .cta-buttons {
     flex-direction: column;
     gap: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero .image-section {
+    top: -40px;
   }
 }
 /*--------------------------------------------------------------
