@@ -2532,3 +2532,35 @@ main .section{
   .dev-bg-anim .dev-symbol:nth-child(7) { left: 40vw; top: 30vh; }
   .dev-bg-anim .dev-symbol:nth-child(8) { left: 8vw; top: 30vh; }
 }
+
+/*--------------------------------------------------------------
+# Custom Styles
+--------------------------------------------------------------*/
+.portfolio-text-logo {
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  z-index: 20;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #1e3c72;
+  padding: 6px 18px;
+  border-radius: 18px;
+}
+.portfolio-text-logo span {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+@media (max-width: 600px) {
+  .portfolio-text-logo {
+    top: 12px;
+    right: 10px;
+    font-size: 1rem;
+    padding: 4px 10px;
+    border-radius: 12px;
+  }
+}

@@ -1,6 +1,8 @@
-    <!-- Main Content -->
+<!-- Main Content -->
      <main id="hero" class="hero section">
-        <!-- Social Icons -->
+
+             <!-- Text Logo in upper left -->
+        <div class="portfolio-text-logo"><span>BuiltByLance</span></div>
         <div class="content-wrapper">
             <div class="text-content"  data-aos="zoom-out">
                 <h1 class="name">Lance Kent Geoffrey Magollado</h1>
