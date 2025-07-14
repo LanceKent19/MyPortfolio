@@ -2535,31 +2535,30 @@ main .section{
 /*--------------------------------------------------------------
 # Custom Styles
 --------------------------------------------------------------*/
-.portfolio-text-logo {
+.portfolio-img-logo {
   position: absolute;
-  top: 12px;
-  left: 10px;
-  z-index: 20;
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.4em;
-  letter-spacing: 1px;
-  color: #1e3c72;
-  padding: 6px 18px;
-  border-radius: 18px;
+  top: 28px;
+  left: 32px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  padding: 6px 14px 6px 8px;
+  transition: background 0.2s, box-shadow 0.2s;
 }
-.portfolio-text-logo span {
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: inherit;
-  color: inherit;
+.portfolio-img-logo img {
+  height: 80px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 2px 8px rgba(30,60,114,0.10));
 }
 @media (max-width: 600px) {
-  .portfolio-text-logo {
-    top: 12px;
-    right: 10px;
-    font-size: 1rem;
-    padding: 4px 10px;
-    border-radius: 12px;
+  .portfolio-img-logo {
+    top: 8px;
+    left: 6px;
+    padding: 3px 7px 3px 4px;
+    border-radius: 10px;
+  }
+  .portfolio-img-logo img {
+    height: 26px;
   }
 }

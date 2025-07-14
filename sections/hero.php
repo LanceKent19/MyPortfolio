@@ -2,7 +2,10 @@
      <main id="hero" class="hero section">
 
              <!-- Text Logo in upper left -->
-        <div class="portfolio-text-logo" data-aos="zoom-out"><span>BuiltByLance</span></div>
+        <div class="portfolio-img-logo" data-aos="zoom-out">
+        <img src="assets/img/portfolio-logo/Final-Personal-Logo-removebg-preview.png" alt="BuiltByLance" data-aos="zoom-out">
+        </div>
+         <!-- Content Wrapper -->
         <div class="content-wrapper">
             <div class="text-content"  data-aos="zoom-out">
                 <h1 class="name">Lance Kent Geoffrey Magollado</h1>
