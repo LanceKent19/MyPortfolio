@@ -11,7 +11,6 @@
   <!-- Favicons -->
   <link href="assets/img/Logo-modified.png" rel="icon">
 
-
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
