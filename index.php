@@ -36,16 +36,10 @@
    include_once("includes/symbol-bg.php");
    ?>
    <!-- /Animation Symbol -->
-
-  <header id="header" class="header d-flex flex-column justify-content-center">
-
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <?php
-    include_once("includes/navbar.php");
-    ?>
-  </header>
-
+    
+   <?php
+   include_once("includes/header.php");
+   ?>
   <main class="main">
     <!-- Hero Section -->
     <?php
