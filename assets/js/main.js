@@ -226,4 +226,21 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  // Language selector toggle for header
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var en = document.getElementById('lang-en');
+    var ph = document.getElementById('lang-ph');
+    if (en && ph) {
+      en.addEventListener('click', function() {
+        en.classList.add('active');
+        ph.classList.remove('active');
+      });
+      ph.addEventListener('click', function() {
+        ph.classList.add('active');
+        en.classList.remove('active');
+      });
+    }
+  });
+
 })();

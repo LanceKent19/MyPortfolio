@@ -20,7 +20,18 @@
         <li><a href="#"><i class="bi bi-laptop navicon"></i>Hackathons</a></li>  
     </ul>
     </nav>
+
     <div class="header-footer">
-        <small class="text-center">© 2025 BuiltByLance. All rights reserved.</small>
+      <div class="theme-mode">
+        <i class="bi bi-moon-stars"></i> Dark Mode
+      </div>
+      <div class="header-select-language">
+        <small class="active" id="lang-en" style="cursor:pointer;">English</small>
+        <small id="lang-ph" style="cursor:pointer;">Filipino</small>
+        <!-- Language toggle script moved to assets/js/main.js -->
+      </div>
+      <div class="line-divider">
+      </div>
+        <small>© 2025 BuiltByLance. All rights reserved.</small>
     </div>
   </header>

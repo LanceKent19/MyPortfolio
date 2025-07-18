@@ -169,7 +169,7 @@ h6 {
 }
 
 .header .profile-img img {
-  margin: 15px auto;
+  margin: 0 auto 5px auto;
   display: block;
   width: 120px;
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
@@ -181,7 +181,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 20px;
   margin-right: 8px;
 }
 .header .portfolio-name{
@@ -205,6 +205,7 @@ h6 {
   font-size: 0.9rem;
   font-weight: 500;
   color: black;
+  margin-bottom: auto;
 }
 .header .resume-btn {
   text-align: center;
@@ -213,6 +214,7 @@ h6 {
   border: 1px solid color-mix(in srgb, black, transparent 90%);
   border-radius: 5px;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 .header .resume-btn a{
   color: #000;
@@ -222,7 +224,7 @@ h6 {
   justify-content: center;
 }
 .header .resume-btn a .navicon{
-  font-size: 16px;
+  font-size: 0.9rem;
   margin-right: 8px;
 }
 .header .resume-btn:hover{
@@ -297,7 +299,7 @@ h6 {
   color: var(--nav-color);
   padding: 8px 20px;
   font-family: var(--nav-font);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -308,7 +310,7 @@ h6 {
 
 .navmenu a .navicon,
 .navmenu a:focus .navicon { 
-  font-size: 17px;
+  font-size: 0.9rem;
   margin-right: 10px; 
 }
 .navmenu a:hover, .navmenu a:hover{
@@ -324,18 +326,51 @@ h6 {
 .navmenu .active:focus .navicon {
   color: var(--nav-hover-color);
 }
-.header-footer{
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 1.25rem 1.25rem;
+.header .header-select-language {
+  justify-content: space-between;
 }
 
-.header-footer small {
+.header .header-select-language small {
+  cursor: pointer;
+  transition: color 0.3s; 
+}
+
+.header .line-divider {
+  height: 2px;
+  background-color: rgb(239, 240, 243);
+  margin: 10px 0;
+}
+
+.header .header-select-language small:hover {
+  text-decoration: underline;
+}
+
+.header .header-select-language small.active, 
+.header .header-select-language small.active:focus {
+  color: var(--nav-hover-color);
+  transition: color 0.3s;
+  text-decoration: underline;
+}
+
+.header-footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto; /* This pushes the footer down only when there's enough space */
+  padding: 0 20px 8px 20px;
+}
+
+.header .header-footer .theme-mode {
+  padding: 5px 0;
+  margin-bottom: 15px;
+  text-align: center;
+  align-content: center;
+  background-color:rgb(239, 240, 243);
+  color: black;
+  border-radius: 5px;
+}
+.header-footer small, .header .header-select-language small {
   color: rgb(179, 179, 179);
   font-size: 12px;
-  font-style: italic;
   margin: 0 20px 0 0;
   overflow: hidden;
   text-overflow: ellipsis;
