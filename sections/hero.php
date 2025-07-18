@@ -3,7 +3,6 @@
 
              <!-- Text Logo in upper left -->
         <div class="portfolio-img-logo" data-aos="zoom-out">
-        <img src="assets/img/portfolio-logo/Final-Personal-Logo-removebg-preview.png" alt="BuiltByLance" data-aos="zoom-out">
         </div>
          <!-- Content Wrapper -->
         <div class="content-wrapper">
