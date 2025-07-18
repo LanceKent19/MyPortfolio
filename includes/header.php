@@ -6,7 +6,10 @@
     </div>
     <div class="portfolio-name logo d-flex">
     <h1>Magollado, Lance Kent Geoffrey B.</h1>
-    <h6>Software Developer Student</h6>
+    <h6>Software Developer</h6>
+    </div>
+    <div class="resume-btn">
+        <a href="assets/files/cv.pdf" download><i class="bi bi-house navicon"></i>Resume</a>
     </div>
     <nav id="navmenu" class="navmenu">
       <ul>

@@ -13,7 +13,7 @@
                 class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
                 <div class="cta-buttons">
                     <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                    <a href="assets/files/cv.pdf" download class="btn btn-secondary">Download CV</a>
+                    <!-- <a href="assets/files/cv.pdf" download class="btn btn-secondary">Download CV</a> -->
                 </div>
             </div>
 
