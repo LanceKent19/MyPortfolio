@@ -23,7 +23,11 @@
 
     <div class="header-footer">
       <div class="theme-mode">
-        <i class="bi bi-moon-stars"></i> Dark Mode
+        <i class="bi bi-moon-stars navicon"></i>Dark Mode
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
       </div>
       <div class="header-select-language">
         <small class="active" id="lang-en" style="cursor:pointer;">English</small>

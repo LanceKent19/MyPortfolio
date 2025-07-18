@@ -309,7 +309,7 @@ h6 {
 }
 
 .navmenu a .navicon,
-.navmenu a:focus .navicon { 
+.navmenu a:focus .navicon{ 
   font-size: 0.9rem;
   margin-right: 10px; 
 }
@@ -325,6 +325,59 @@ h6 {
 .navmenu .active .navicon,
 .navmenu .active:focus .navicon {
   color: var(--nav-hover-color);
+}
+
+.theme-mode {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.theme-mode .bi-moon-stars {
+  font-size: 1.2rem;
+  margin-right: 4px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 17px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  border-radius: 22px;
+  transition: background 0.3s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  bottom: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+.switch input:checked + .slider {
+  background: #4facfe;
+}
+.switch input:checked + .slider:before {
+  transform: translateX(14px);
 }
 .header .header-select-language {
   justify-content: space-between;
@@ -361,12 +414,18 @@ h6 {
 
 .header .header-footer .theme-mode {
   padding: 5px 0;
-  margin-bottom: 15px;
-  text-align: center;
+  margin-bottom: 13px;
   align-content: center;
   background-color:rgb(239, 240, 243);
   color: black;
   border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.header .header-footer .navicon{
+  font-size: 0.9rem;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .header-footer small, .header .header-select-language small {
   color: rgb(179, 179, 179);
