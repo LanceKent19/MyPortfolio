@@ -159,8 +159,8 @@ h6 {
   top: 15px;
   left: 15px;
   bottom: 0;
-  width: 230px;
-  height: 95%;
+  width: 17%;
+  margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
@@ -246,6 +246,7 @@ h6 {
 @media (max-width: 1199px) {
   .header {
     left: -100%;
+    width: 230px;
   }
 }
 
@@ -255,7 +256,7 @@ h6 {
 
 .header .header-toggle {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: var(--nav-hover-color);
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -273,7 +274,7 @@ h6 {
 
 .header .header-toggle:hover {
   color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background-color: color-mix(in srgb, var(--nav-hover-color) 90%, white 15%);
 }
 
 /*--------------------------------------------------------------
@@ -330,7 +331,6 @@ h6 {
 .theme-mode {
   display: flex;
   align-items: center;
-  gap: 10px;
   margin-bottom: 16px;
 }
 .theme-mode .bi-moon-stars {
