@@ -29,7 +29,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #45505b;  /* The default color of the main navmenu links */
+  --nav-color: black;  /* The default color of the main navmenu links */
   --nav-hover-color: #0563bb; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -159,14 +159,13 @@ h6 {
   top: 15px;
   left: 15px;
   bottom: 0;
-  padding: 0 15px;  
-  width: 300px;
+  width: 230px;
   height: 95%;
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
   border-radius: 10px;
-  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, black, transparent 90%);
 }
 
 .header .profile-img img {
@@ -185,18 +184,26 @@ h6 {
   max-height: 32px;
   margin-right: 8px;
 }
-
+.header .portfolio-name{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
 .header .logo h1 {
-  font-size: 24px;
+  font-size: calc(1.1rem);
   margin: 0;
   font-weight: 700;
-  color: #444;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .header h6 {
-  font-size: 18px;
+  font-size: 0.9rem;
   font-weight: 500;
-  color: #444;
+  color: black;
 }
 
 .header .social-links {
@@ -285,9 +292,9 @@ h6 {
 .navmenu a,
 .navmenu a:focus {
   color: var(--nav-color);
-  padding: 15px 10px;
+  padding: 5px 20px;
   font-family: var(--nav-font);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -298,36 +305,14 @@ h6 {
 
 .navmenu a .navicon,
 .navmenu a:focus .navicon {
-  font-size: 20px;
-  margin-right: 10px;
+  font-size: 22px;
+  margin-right: 5px;
 }
-
-.navmenu a .toggle-dropdown,
-.navmenu a:focus .toggle-dropdown {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: auto;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: 0.3s;
-  flex-shrink: 0;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-}
-
-.navmenu a .toggle-dropdown:hover,
-.navmenu a:focus .toggle-dropdown:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
 .navmenu a:hover,
 .navmenu .active,
 .navmenu .active:focus {
   color: var(--nav-hover-color);
+  background-color: red;
 }
 
 .navmenu a:hover .navicon,
