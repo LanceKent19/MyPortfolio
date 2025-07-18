@@ -9,7 +9,7 @@
     <h6>Software Developer</h6>
     </div>
     <div class="resume-btn">
-        <a href="assets/files/cv.pdf" download><i class="bi bi-house navicon"></i>Resume</a>
+        <a href="assets/files/cv.pdf" download><i class="bi bi-download navicon"></i>Resume</a>
     </div>
     <nav id="navmenu" class="navmenu">
       <ul>
@@ -19,5 +19,7 @@
         <li><a href="#portfolio"><i class="bi bi-folder navicon"></i>Projects</a></li>
       </ul>
     </nav>
-
+    <div class="header-footer">
+        <p class="text-center">© 2025 BuiltByLance. All rights reserved.</p>
+    </div>
   </header>

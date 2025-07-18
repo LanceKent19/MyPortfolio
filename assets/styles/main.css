@@ -224,7 +224,14 @@ h6 {
 .header .resume-btn a .navicon{
   font-size: 16px;
   margin-right: 8px;
-  
+}
+.header .resume-btn:hover{
+  border: 1px solid var(--nav-hover-color);
+  text-decoration: none;
+  color: var(--nav-hover-color);
+}
+.header .resume-btn:hover a{
+  color: var(--nav-hover-color);
 }
 @media (min-width: 1200px) {
 
@@ -317,49 +324,28 @@ h6 {
 .navmenu .active:focus .navicon {
   color: var(--nav-hover-color);
 }
-
-.navmenu .active .toggle-dropdown,
-.navmenu .active:focus .toggle-dropdown {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  transform: rotate(180deg);
+.header-footer{
+  text-align: center;
+    padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  position: relative;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.navmenu .dropdown {
-  display: block;
+.header-footer p {
+  color: rgb(179, 179, 179);
+  font-size: 12px;
+  font-style: italic;
+  display: flex;
+  margin: 0 20px 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.navmenu .dropdown a,
-.navmenu .dropdown a:focus {
-  color: --nav-dropdown-color;
-}
-
-.navmenu .dropdown a:hover,
-.navmenu .dropdown .active,
-.navmenu .dropdown .active:focus {
-  color: var(--nav-dropdown-hover-color);
-}
-
-.navmenu .dropdown ul {
-  position: static;
-  display: none;
-  z-index: 99;
-  padding: 5px 10px;
-  margin: 5px 10px;
-  background-color: var(--nav-dropdown-background-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  box-shadow: none;
-  transition: all 0.5s ease-in-out;
-}
-
-.navmenu .dropdown ul ul {
-  background-color: rgba(33, 37, 41, 0.1);
-}
-
-.navmenu .dropdown>.dropdown-active {
-  display: block;
-  background-color: rgba(33, 37, 41, 0.03);
-}
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
@@ -367,11 +353,7 @@ h6 {
   color: var(--default-color);
   background: white;
   font-size: 14px;
-  text-align: center;
-  padding: 30px 0;
   position: relative;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
 .footer h3 {
@@ -383,11 +365,10 @@ h6 {
 }
 
 .footer p {
-  color: var(--accent-color);
-  font-size: 15;
+  color: black;
+  font-size: 15px;
   font-style: italic;
   padding: 0;
-  margin: 0 0 30px 0;
 }
 
 .footer .social-links {
