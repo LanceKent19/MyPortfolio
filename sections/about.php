@@ -41,7 +41,7 @@
    include_once("../includes/header.php");
    ?>
   <main class="main">
-    
+
     <section id="about" class="about section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
