@@ -202,10 +202,13 @@ h6 {
 }
 
 .header h6 {
-  font-size: 0.9rem;
+  font-size: 0.84rem;
   font-weight: 500;
   color: black;
   margin-bottom: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .header .resume-btn {
   text-align: center;
@@ -591,34 +594,6 @@ h6 {
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
-.scroll-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: -15px;
-  z-index: 99999;
-  width: 44px;
-  background-color: white;
-  height: 44px;
-  border-radius: 50px;
-  transition: all 0.4s;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  color: var(--accent-color);
-  font-size: 24px;
-  line-height: 0;
-}
-.scroll-top:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(30, 60, 114, 0.3);
-}
-
-.scroll-top.active {
-  visibility: visible;
-  opacity: 1;
-  bottom: 15px;
-}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices

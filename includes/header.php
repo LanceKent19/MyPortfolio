@@ -10,14 +10,14 @@
     </div>
     <div class="resume-btn">
         <a href="../assets/files/cv.pdf" download><i class="bi bi-download navicon"></i>Resume</a>
-    </div>
+    </div>  
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="../sections/index.php" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="../sections/about.php"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="../sections/resume.php"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="../sections/projects.php"><i class="bi bi-folder navicon"></i>Projects</a></li>
-        <li><a href="#"><i class="bi bi-laptop navicon"></i>Hackathons</a></li>  
+        <li><a href="../sections/hackathons.php"><i class="bi bi-laptop navicon"></i>Hackathons</a></li>
     </ul>
     </nav>
 
