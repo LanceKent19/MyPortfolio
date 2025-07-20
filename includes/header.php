@@ -9,7 +9,7 @@
     <h6>Software Developer Student</h6>
     </div>
     <div class="resume-btn">
-        <a href="../sections/resume.php"><i class="bi bi-download navicon"></i>Resume</a>
+        <a href="../sections/resume.php"><i class="bi bi-file-earmark-person navicon"></i>Resume</a>
     </div>  
     <nav id="navmenu" class="navmenu">
       <ul>

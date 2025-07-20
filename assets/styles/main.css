@@ -225,6 +225,7 @@ h6 {
   align-content: center;
   justify-content: center;
   padding: 3px 0;
+  transition: 0.3s;
 }
 .header .resume-btn a .navicon{
   font-size: 0.9rem;
@@ -661,7 +662,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: transparent;
-  padding: 60px 0;
+  padding: 20px 10px;
   overflow: clip;
 }
 
@@ -669,45 +670,20 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  text-align: center;
-  padding-bottom: 60px;
+  text-align: left;
+  padding-bottom: 30px;
   position: relative;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 23px;
+  font-weight: 700;
   padding-bottom: 10px;
   position: relative;
-  color: var(--accent-color);
+  color: black;
 }
-.section-title h2:before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 160px;
-  height: 1px;
-  background: color-mix(in srgb, var(--default-color), transparent 60%);
-  left: 0;
-  right: 0;
-  bottom: 1px;
-  margin: auto;
-}
-
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
 .section-title p {
   margin-bottom: 0;
 }
@@ -2484,9 +2460,55 @@ main .section{
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-/* .starter-section { */
-  /* Add your styles here */
-/* } */
+.resume-section {
+  color: var(--default-color);
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  top: 15px;
+  right: 12px;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  overflow-y: auto;
+  z-index: 997;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, black, transparent 90%);
+}
+
+.resume-section .top-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: white;
+}
+.resume-section .download-btn{
+  text-align: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.resume-section .download-btn a{
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid color-mix(in srgb, black, transparent 90%);
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 5px 40px;
+  transition: .3s;
+  gap:.5rem;
+}
+
+.resume-section .download-btn a:hover{
+  color: var(--nav-hover-color);
+  text-decoration: none;
+  border: 1px solid var(--nav-hover-color);
+}
+
 
 .dev-bg-anim {
   position: fixed;
