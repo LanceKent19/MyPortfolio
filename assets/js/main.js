@@ -48,6 +48,18 @@ navmenuLinks.forEach(link =>{
   }
 });
 
+
+  /**
+   * Resume Active Distribution
+   */
+  const resumeLink = document.querySelectorAll('.resume-btn a');
+  
+  resumeLink.forEach(link => {
+    if (link.href.includes(windowPathname)) {
+      link.classList.add('active');
+    }
+  });
+
   /**
    * Toggle mobile nav dropdowns
    */

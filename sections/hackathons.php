@@ -45,9 +45,9 @@
           <!-- <ol>
             <li><a href="index.html">Home</a></li>
             <li class="current">Starter Page</li>
-          </ol> -->
-        </nav>
-        <h1>Resume</h1>
+          </ol>
+        </nav> -->
+        <h1>Hackathons</h1>
       </div>
     </div><!-- End Page Title -->
 
