@@ -9,7 +9,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../../assets/img/Logo-modified.png" rel="icon">
+  <link href="../../assets/img/me-photo/Resume-Icon.png" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
