@@ -185,11 +185,7 @@
 
     </section>
   </main>
-
-  <?php
-  include_once("../includes/scroll-top.php");
-  ?>
-
+  
   <?php
   include_once("../includes/preloader.php");
   ?>

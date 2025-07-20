@@ -110,8 +110,6 @@
      </main>
 
   </main>
-
-
   <?php
   include_once("../includes/preloader.php");
   ?>
