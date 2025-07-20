@@ -308,7 +308,7 @@ h6 {
   display: flex;
   align-items: center;
   white-space: nowrap;
-  transition: 0.3s;
+  transition: 0.01s;
   width: 100%;
 }
 

@@ -6,14 +6,14 @@
     </div>
     <div class="portfolio-name logo d-flex">
     <h1>Magollado, Lance Kent Geoffrey B.</h1>
-    <h6>Software Developer</h6>
+    <h6>Software Developer Student</h6>
     </div>
     <div class="resume-btn">
         <a href="../assets/files/cv.pdf" download><i class="bi bi-download navicon"></i>Resume</a>
     </div>  
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="../sections/index.php" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="../sections/index.php"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="../sections/about.php"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="../sections/resume.php"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="../sections/projects.php"><i class="bi bi-folder navicon"></i>Projects</a></li>
@@ -32,7 +32,6 @@
       <div class="header-select-language">
         <small class="active" id="lang-en" style="cursor:pointer;">English</small>
         <small id="lang-ph" style="cursor:pointer;">Filipino</small>
-        <!-- Language toggle script moved to assets/js/main.js -->
       </div>
       <div class="line-divider">
       </div>

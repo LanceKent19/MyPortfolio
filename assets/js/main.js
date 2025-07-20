@@ -42,7 +42,7 @@ const windowPathname= window.location.pathname;
 navmenuLinks.forEach(link =>{
     if(link.href.includes(windowPathname)) {
     // Remove 'active' class from all links
-    document.querySelector('.active')?.classList.remove('active');
+    document.querySelector('#navmenu .active')?.classList.remove('active');
     // Add 'active' class to the clicked link
     link.classList.add('active');
   }
