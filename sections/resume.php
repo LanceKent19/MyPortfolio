@@ -35,7 +35,7 @@
     include_once('../includes/header.php');
     ?>
 
-  <main class="main">
+  <main class="main resume-page">
 
     <!-- Resume Section -->
     <section id="resume-section" class="resume-section">
@@ -49,14 +49,13 @@
       </div><!-- End Section Title -->
         </div>
           
-    </div>       
-   
+    </div>
 
       <div class="container" data-aos="fade-up">
         <div class="pdf-viewer-container">
-          <iframe src="../assets/files/cv.pdf"></iframe>
-        </div>
-      </div>
+ <iframe src="../assets/files/cv.pdf#toolbar=0" class="pdf-iframe" frameborder="0"></iframe>        </div>
+      
+</div>
       <div class="container get-in-touch" data-aos="fade-up">
         <h3>Get in Touch</h3>
         <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
