@@ -2498,9 +2498,8 @@ main .section{
   display: flex;
   align-content: center;
   justify-content: center;
-  padding: 5px 40px;
+  padding: 5px 30px;
   transition: .3s;
-  gap:.5rem;
 }
 
 .resume-section .download-btn a:hover{
@@ -2508,8 +2507,34 @@ main .section{
   text-decoration: none;
   border: 1px solid var(--nav-hover-color);
 }
+.resume-section .navicon{
+  margin-right: 8px;
+}
 
+.resume-section .pdf-viewer-container{
+  background: #222;
+  border-radius: 15px;
+  box-shadow: 0 4px 24px rgba(30, 60, 114, 0.8);
+  padding: 0;
+  overflow: hidden;
+  margin: 0 auto 32px auto;
+  max-width: 100%;
+  min-height: 1000px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.resume-section .pdf-viewer-container iframe{
+  border: none;
+  width: 100%;
+  height: 1000px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: none;
+  display:block;
+}
 .dev-bg-anim {
   position: fixed;
   inset: 0;

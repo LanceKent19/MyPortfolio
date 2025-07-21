@@ -52,10 +52,15 @@
     </div>       
    
 
-      <!-- <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
-      </div> -->
-
+      <div class="container" data-aos="fade-up">
+        <div class="pdf-viewer-container">
+          <iframe src="../assets/files/cv.pdf"></iframe>
+        </div>
+      </div>
+      <div class="container get-in-touch" data-aos="fade-up">
+        <h3>Get in Touch</h3>
+        <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
+      </div>
     </section><!-- /Starter Section Section -->
 
   </main>
