@@ -27,6 +27,88 @@
   <link href="../assets/styles/main.css" rel="stylesheet">
 
 </head>
+<script src="../assets/vendor/pdfjs/build/pdf.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const url = '../assets/files/cv.pdf';
+
+    let pdfDoc = null,
+        pageNum = 1,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 1,
+        canvas = document.getElementById('pdf-canvas'),
+        ctx = canvas.getContext('2d');
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc = '../assets/vendor/pdfjs/build/pdf.worker.js';
+
+    function renderPage(num) {
+      pageRendering = true;
+      pdfDoc.getPage(num).then(function(page) {
+const desiredWidth = canvas.parentElement.offsetWidth;
+const viewport = page.getViewport({ scale: 1 });
+const scale = desiredWidth / viewport.width;
+const scaledViewport = page.getViewport({ scale: scale });
+
+canvas.height = scaledViewport.height;
+canvas.width = scaledViewport.width;
+
+const renderContext = {
+  canvasContext: ctx,
+  viewport: scaledViewport
+};
+        const renderTask = page.render(renderContext);
+
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          if (pageNumPending !== null) {
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      document.getElementById('page-num').textContent = num;
+    }
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    window.prevPage = function () {
+      if (pageNum <= 1) return;
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+
+    window.nextPage = function () {
+      if (pageNum >= pdfDoc.numPages) return;
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+
+    window.zoomIn = function () {
+      scale += 0.1;
+      queueRenderPage(pageNum);
+    }
+
+    window.zoomOut = function () {
+      if (scale <= 0.5) return;
+      scale -= 0.1;
+      queueRenderPage(pageNum);
+    }
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      document.getElementById('page-count').textContent = pdfDoc.numPages;
+      renderPage(pageNum);
+    });
+  });
+</script>
 
 <body class="starter-page-page">
 
@@ -53,8 +135,14 @@
 
       <div class="container" data-aos="fade-up">
         <div class="pdf-viewer-container">
- <iframe src="../assets/files/cv.pdf#toolbar=0" class="pdf-iframe" frameborder="0"></iframe>        </div>
-      
+<canvas id="pdf-canvas"></canvas>
+<div class="pdf-controls">
+  <button onclick="prevPage()">❮</button>
+  <span>Page <span id="page-num">1</span> / <span id="page-count">1</span></span>
+  <button onclick="nextPage()">❯</button>
+  <button onclick="zoomOut()">-</button>
+  <button onclick="zoomIn()">+</button>
+</div>      
 </div>
       <div class="container get-in-touch" data-aos="fade-up">
         <h3>Get in Touch</h3>

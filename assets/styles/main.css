@@ -2481,7 +2481,7 @@ main .section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
+  padding-top: 10px;
   color: white;
 }
 .resume-section .download-btn{
@@ -2512,25 +2512,48 @@ main .section{
   margin-right: 8px;
 }
 .pdf-viewer-container {
-  background: #1a1a1a; /* matches dark theme */
-  border-radius: 15px;
+  background: #1a1a1a;
   padding: 0;
   overflow: hidden;
-  margin: 0 auto 32px auto;
+  margin: -20px auto 32px auto;
   max-width: 100%;
-  min-height: 1150px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
 }
 
-.pdf-iframe {
+#pdf-canvas {
+  width: 80%;
+  border: 1px solid color-mix(in srgb, black, transparent 90%);
+  background: #fff;
+}
+
+.pdf-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a2a;
+  padding: 10px 20px;
   width: 100%;
-  height: 1150px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.pdf-controls button {
+  background: #444;
+  color: white;
   border: none;
-  border-radius: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.pdf-controls button:hover {
+  background: #666;
 }
 
 .dev-bg-anim {

@@ -214,6 +214,8 @@ navmenuLinks.forEach(link =>{
     }
   });
 
+  
+
   /**
    * Navmenu Scrollspy
    */
@@ -254,3 +256,4 @@ navmenuLinks.forEach(link =>{
   });
 
 })();
+
