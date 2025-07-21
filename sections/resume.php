@@ -42,34 +42,49 @@
 
     pdfjsLib.GlobalWorkerOptions.workerSrc = '../assets/vendor/pdfjs/build/pdf.worker.js';
 
-    function renderPage(num) {
-      pageRendering = true;
-      pdfDoc.getPage(num).then(function(page) {
-const desiredWidth = canvas.parentElement.offsetWidth;
-const viewport = page.getViewport({ scale: 1 });
-const scale = desiredWidth / viewport.width;
-const scaledViewport = page.getViewport({ scale: scale });
+function renderPage(num) {
+  pageRendering = true;
+  
+  // Clear canvas
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  // Get fixed container dimensions (from CSS)
+  const container = document.querySelector('.pdf-viewer-container');
+  const availableWidth = container.clientWidth - 40; // Account for padding
+  const availableHeight = container.clientHeight - 40;
 
-canvas.height = scaledViewport.height;
-canvas.width = scaledViewport.width;
-
-const renderContext = {
-  canvasContext: ctx,
-  viewport: scaledViewport
-};
-        const renderTask = page.render(renderContext);
-
-        renderTask.promise.then(function() {
-          pageRendering = false;
-          if (pageNumPending !== null) {
-            renderPage(pageNumPending);
-            pageNumPending = null;
-          }
-        });
-      });
-
-      document.getElementById('page-num').textContent = num;
-    }
+  pdfDoc.getPage(num).then(function(page) {
+    // Get page dimensions at scale=1
+    const viewport = page.getViewport({ scale: 1 });
+    
+    // Calculate base scale to fit width (maintain aspect ratio)
+    const baseScale = availableWidth / viewport.width;
+    
+    // Apply current zoom level
+    const currentScale = baseScale * scale;
+    const scaledViewport = page.getViewport({ scale: currentScale });
+    
+    // Set canvas dimensions (will be larger than container when zoomed in)
+    canvas.width = scaledViewport.width;
+    canvas.height = scaledViewport.height;
+    
+    // Render PDF
+    const renderContext = {
+      canvasContext: ctx,
+      viewport: scaledViewport
+    };
+    
+    page.render(renderContext).promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+  
+  document.getElementById('page-num').textContent = num;
+}
 
     function queueRenderPage(num) {
       if (pageRendering) {
@@ -109,7 +124,6 @@ const renderContext = {
     });
   });
 </script>
-
 <body class="starter-page-page">
 
     <?php
@@ -141,13 +155,14 @@ const renderContext = {
   <span>Page <span id="page-num">1</span> / <span id="page-count">1</span></span>
   <button onclick="nextPage()">❯</button>
   <button onclick="zoomOut()">-</button>
+  <button onclick="resetZoom()">Reset</button>
   <button onclick="zoomIn()">+</button>
 </div>      
 </div>
-      <div class="container get-in-touch" data-aos="fade-up">
+      <!-- <div class="container get-in-touch" data-aos="fade-up">
         <h3>Get in Touch</h3>
         <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
-      </div>
+      </div> -->
     </section><!-- /Starter Section Section -->
 
   </main>
