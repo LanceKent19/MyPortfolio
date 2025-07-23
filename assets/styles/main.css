@@ -2464,17 +2464,37 @@ main .section{
 .resume-section {
   color: var(--default-color);
   background-color: white;
-  position: fixed;
-  bottom: 0;
-  width: 80%;
+  position: absolute;
   top: 15px;
-  right: 12px;
+  left: 260px;
+  bottom: 0;
+  width: 79.5%;
+  height: 1250px;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
-  overflow-y: auto;
+  overflow-y: visible;
   z-index: 997;
   border-radius: 10px;
   border: 1px solid color-mix(in srgb, black, transparent 90%);
+}
+
+.pdf-viewer-container {
+  background: #1a1a1a;
+  padding: 20px;
+  overflow: auto;
+  margin: 0 auto 32px auto;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  min-height: auto;
+}
+
+.main.resume-page {
+  overflow-y: auto;
+  height: calc(100vh - header-height);
 }
 
 .resume-section .top-bar{
@@ -2510,19 +2530,6 @@ main .section{
 }
 .resume-section .navicon{
   margin-right: 8px;
-}
-.pdf-viewer-container {
-  background: #1a1a1a;
-  padding: 20px;
-  overflow: auto; /* Changed from hidden to allow scrolling when zoomed */
-  margin: -20px auto 32px auto;
-  max-width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
-  min-height: 500px; /* Ensure minimum height */
 }
 
 #pdf-canvas {
