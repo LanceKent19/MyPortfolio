@@ -63,17 +63,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-image: 
-      radial-gradient(circle at 1px 1px, rgba(30, 60, 114, 0.02) 1px, transparent 0),
-      linear-gradient(0deg, transparent 24%, rgba(30, 60, 114, 0.015) 25%, rgba(30, 60, 114, 0.015) 26%, transparent 27%, transparent 74%, rgba(30, 60, 114, 0.015) 75%, rgba(30, 60, 114, 0.015) 76%, transparent 77%, transparent),
-      linear-gradient(90deg, transparent 24%, rgba(30, 60, 114, 0.015) 25%, rgba(30, 60, 114, 0.015) 26%, transparent 27%, transparent 74%, rgba(30, 60, 114, 0.015) 75%, rgba(30, 60, 114, 0.015) 76%, transparent 77%, transparent),
-      linear-gradient(135deg, rgba(244, 107, 69, 0.01) 0%, rgba(238, 168, 73, 0.01) 100%),url(/assets/img/background-photo.png);
-  background-size: 40px 40px, 40px 40px, 40px 40px, 100% 100%,auto;
-  background-repeat: repeat, repeat, repeat, no-repeat,no-repeat;
-  background-position: top left, top left, top left, center, center;
-  font-family: var(--default-font);
-  transition: all 0.3s ease;
-  background-attachment: fixed;
+  background-color: rgb(239, 240, 243);
 }
 a {
   color: #4facfe ;
