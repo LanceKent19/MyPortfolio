@@ -1,0 +1,559 @@
+:root {
+    --default-color: black;
+    --nav-hover-color: #007bff;
+    --primary-color: #007bff;
+    --background-color: #f8f9fa;
+    --sidebar-width: 240px;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--default-color);
+    line-height: 1.6;
+}
+
+/* Header/Sidebar Styles */
+.header {
+    color: var(--default-color);
+    background-color: white;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    width: var(--sidebar-width);
+    transition: all ease-in-out 0.3s;
+    overflow-y: auto;
+    z-index: 997;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.header .header-toggle {
+    display: none;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    font-size: 24px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .profile-img {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.header .profile-img img {
+    margin: 0 auto 5px auto;
+    display: block;
+    width: 120px;
+}
+
+.header .portfolio-name {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.header .portfolio-name h1 {
+  font-size: calc(1.1rem);
+  margin: 0;
+  font-weight: 550;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header .portfolio-name h6 {
+  font-size: 0.84rem;
+  font-weight: 350;
+  color: black;
+  margin-bottom: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header .resume-btn {
+  text-align: center;
+  margin: 0 20px 15px 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.header .logo {
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.header .logo img {
+  max-height: 20px;
+  margin-right: 8px;
+}
+.header .resume-btn a {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid color-mix(in srgb, black, transparent 90%);
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 3px 0;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.header .resume-btn a:hover {
+  color: var(--nav-hover-color);
+  border-color: var(--nav-hover-color);
+}
+
+.header .resume-btn a .navicon {
+  font-size: 0.9rem;
+  margin-right: 8px;
+}
+
+.header .resume-btn .active {
+  color: var(--nav-hover-color);
+  background-color: white;
+  border: 1px solid var(--nav-hover-color);
+}
+/* Navigation */
+.mobile-nav-toggle {
+  display: none;
+}
+.navmenu {
+  padding: 0;
+  z-index: 9997;
+}
+
+.navmenu ul {
+  list-style: none;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.navmenu a, 
+.navmenu a:focus {
+    color: var(--default-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    transition: 0.01s;
+    font-weight: 400;
+    width: 100%;
+    white-space: nowrap;
+}
+.navmenu a .navicon,
+.navmenu a:focus .navicon{ 
+  font-size: 0.9rem;
+  margin-right: 10px; 
+}
+.navmenu a:hover, .navmenu a:hover{
+  background-color:rgb(239, 240, 243);
+  color: black;
+}
+
+.navmenu .active,
+.navmenu .active:focus {
+  color: var(--nav-hover-color);
+  background-color:rgb(239, 240, 243);
+}
+.navmenu
+.navmenu a.active {
+    color: var(--nav-hover-color);
+}
+
+/* Header Footer */
+.header-footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  padding: 0 20px 8px 20px;
+}
+
+.header .theme-mode .bi-moon-stars {
+  font-size: 1.2rem;
+  margin-right: 4px;
+}
+
+.header .header-footer .navicon{
+  font-size: 0.9rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header .header-footer .theme-mode {
+  padding: 5px 0;
+  margin-bottom: 13px;
+  align-content: center;
+  background-color:rgb(239, 240, 243);
+  color: black;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.header .switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 17px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.header .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  border-radius: 22px;
+  transition: background 0.3s;
+}
+
+.header .slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  bottom: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+
+.header .switch input:checked + .slider {
+  background: #4facfe;
+}
+.header .switch input:checked + .slider:before {
+  transform: translateX(14px);
+}
+
+.header .header-select-language {
+  display: flex;
+  gap: 10px;
+}
+
+.header .header-select-language small {
+  cursor: pointer;
+  transition: color 0.3s; 
+}
+
+.header .header-select-language small:hover {
+  text-decoration: underline;
+}
+.header .header-select-language small.active, 
+.header .header-select-language small.active:focus {
+  color: var(--nav-hover-color);
+  transition: color 0.3s;
+  text-decoration: underline;
+}
+
+.header .line-divider {
+  height: 2px;
+  background-color: rgb(239, 240, 243);
+  margin: 10px 0;
+}
+
+.header-footer small {
+  font-size: 0.65rem;
+  color: #b9b9b9;
+  text-align: left;
+  display: block;
+}
+
+/* Main Content */
+.main {
+    margin-left: calc(var(--sidebar-width) + 30px);
+    padding: 15px 15px 15px 0;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.resume-section {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.section-title {
+    padding: 20px 30px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.top-bar h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--default-color);
+    margin: 0;
+}
+
+.download-btn a {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: 0.3s;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.download-btn a:hover {
+    color: var(--nav-hover-color);
+    border-color: var(--nav-hover-color);
+}
+
+/* PDF Viewer */
+.pdf-viewer-container {
+  background: #1a1a1a;
+  padding: 20px;
+  overflow: auto;
+  margin: 0 30px 32px 30px;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  min-height: auto;
+}
+
+#pdf-canvas {
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.pdf-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2a2a2a;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-size: 14px;
+  gap: 15px; /* Space between controls */
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
+
+.pdf-controls button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 16px;
+  min-width: 40px;
+}
+
+.pdf-controls button:hover {
+    background: #666;
+}
+
+.pdf-controls span {
+    white-space: nowrap;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    :root {
+        --sidebar-width: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        transform: translateX(-100%);
+    }
+
+    .header.show {
+        transform: translateX(0);
+    }
+
+    .header-toggle {
+        display: flex;
+    }
+
+    .main {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .portfolio-name h1 {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        padding: 15px 20px;
+    }
+
+    .top-bar {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 280px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .section-title {
+        padding: 15px;
+    }
+
+    .pdf-viewer-container {
+        padding: 15px;
+    }
+
+    .pdf-controls {
+        padding: 8px 15px;
+        gap: 10px;
+    }
+
+    .pdf-controls button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-name {
+        padding: 0 15px;
+    }
+
+    .portfolio-name h1 {
+        font-size: 0.95rem;
+    }
+
+    .portfolio-name h6 {
+        font-size: 0.8rem;
+    }
+
+    .section-title {
+        padding: 10px;
+    }
+
+    .top-bar h2 {
+        font-size: 1.3rem;
+    }
+
+    .pdf-viewer-container {
+        padding: 10px;
+        min-height: 400px;
+    }
+
+    .pdf-controls {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .pdf-controls>div {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    --background-color: #1a1a1a;
+    --default-color: #ffffff;
+    background-color: var(--background-color);
+    color: var(--default-color);
+}
+
+body.dark-mode .header {
+    background-color: #2a2a2a;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .portfolio-name h1,
+body.dark-mode .resume-btn a,
+body.dark-mode .navmenu a,
+body.dark-mode .top-bar h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .portfolio-name h6 {
+    color: #cccccc;
+}
+
+body.dark-mode .resume-section {
+    background-color: #2a2a2a;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .download-btn a {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .header-toggle {
+    background: #2a2a2a;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.1);
+}

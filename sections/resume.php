@@ -24,54 +24,53 @@
   <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../assets/styles/main.css" rel="stylesheet">
+  <link href="../assets/styles/style.css" rel="stylesheet">
 
 </head>
 
 <body class="starter-page-page">
 
     <?php
-    include_once("../includes/symbol-bg.php");
     include_once('../includes/header.php');
     ?>
 
   <main class="main resume-page">
-
-    <!-- Resume Section -->
     <section id="resume-section" class="resume-section">
-
-      <!-- Section Title -->
       <div class="container section-title resume-title-flex" data-aos="fade-up">
-        <div class="top-bar">
-      <h2><i class="bi bi-file-earmark-person navicon"></i> Resume</h2> 
-      <div class="download-btn">
-        <a href="../assets/files/cv.pdf" download="Lance_Magollado_Resume.pdf"><i class="bi bi-download navicon"></i> Download</a>
-      </div><!-- End Section Title -->
-        </div>
-          
-    </div>
+          <div class="top-bar">
+              <h2><i class="bi bi-file-earmark-person navicon"></i> Resume</h2> 
+              <div class="download-btn">
+                  <a href="../assets/files/cv.pdf" download="Lance_Magollado_Resume.pdf">
+                    <i class="bi bi-download navicon"></i> Download
+                  </a>
+              </div>
+          </div>  
+      </div>
 
-      <div class="container" data-aos="fade-up">
-        <div class="pdf-viewer-container">
-<canvas id="pdf-canvas"></canvas>
-<div class="pdf-controls">
-  <button onclick="prevPage()">❮</button>
-  <span>Page <span id="page-num">1</span> / <span id="page-count">1</span></span>
-  <button onclick="nextPage()">❯</button>
-  <button onclick="zoomOut()">-</button>
-  <button onclick="resetZoom()">Reset</button>
-  <button onclick="zoomIn()">+</button>
-</div>      
-</div>
-      <!-- <div class="container get-in-touch" data-aos="fade-up">
-        <h3>Get in Touch</h3>
-        <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
-      </div> -->
-    </section><!-- /Starter Section Section -->
+      <div class="pdf-viewer-container">
+          <canvas id="pdf-canvas"></canvas>
+          <div class="pdf-controls">
+              <div>
+                <button onclick="prevPage()">❮</button>
+                <span>Page <span id="page-num">1</span> / <span id="page-count">1</span></span>
+                <button onclick="nextPage()">❯</button>
+              </div>
+              <div>
+                <button onclick="zoomOut()">-</button>
+                <button onclick="resetZoom()">Reset</button>
+                <button onclick="zoomIn()">+</button>
+              </div>
+          </div>
+      </div>
+    </section>
 
   </main>
 <script src="../assets/vendor/pdfjs/build/pdf.js"></script>
 <script>
+  document.addEventListener('DOMContentLoaded', function() {
+  window.scrollTo(0, 0);
+  document.body.classList.add('loaded');
+});
       // PDF Viewer functionality
       document.addEventListener('DOMContentLoaded', function () {
       const url = '../assets/files/cv.pdf'; // Change this to your PDF path
